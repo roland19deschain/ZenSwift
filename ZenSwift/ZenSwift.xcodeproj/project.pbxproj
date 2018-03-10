@@ -13,6 +13,14 @@
 		F76F7EDF20544C39007C919A /* Array+NextPrevious.swift in Sources */ = {isa = PBXBuildFile; fileRef = F76F7EDC20544C39007C919A /* Array+NextPrevious.swift */; };
 		F76F7EE020544C39007C919A /* Array+RemoveItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = F76F7EDD20544C39007C919A /* Array+RemoveItem.swift */; };
 		F76F7EE120544C39007C919A /* Array+RemoveItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = F76F7EDD20544C39007C919A /* Array+RemoveItem.swift */; };
+		F794DA1C2054A50200DB71A4 /* Sequence+ReduceBoolean.swift in Sources */ = {isa = PBXBuildFile; fileRef = F794DA162054A50100DB71A4 /* Sequence+ReduceBoolean.swift */; };
+		F794DA1D2054A50200DB71A4 /* Sequence+ReduceBoolean.swift in Sources */ = {isa = PBXBuildFile; fileRef = F794DA162054A50100DB71A4 /* Sequence+ReduceBoolean.swift */; };
+		F794DA1E2054A50200DB71A4 /* Collection+SafeSubscript.swift in Sources */ = {isa = PBXBuildFile; fileRef = F794DA182054A50100DB71A4 /* Collection+SafeSubscript.swift */; };
+		F794DA1F2054A50200DB71A4 /* Collection+SafeSubscript.swift in Sources */ = {isa = PBXBuildFile; fileRef = F794DA182054A50100DB71A4 /* Collection+SafeSubscript.swift */; };
+		F794DA202054A50200DB71A4 /* FloatingPoint+Angles.swift in Sources */ = {isa = PBXBuildFile; fileRef = F794DA1A2054A50200DB71A4 /* FloatingPoint+Angles.swift */; };
+		F794DA212054A50200DB71A4 /* FloatingPoint+Angles.swift in Sources */ = {isa = PBXBuildFile; fileRef = F794DA1A2054A50200DB71A4 /* FloatingPoint+Angles.swift */; };
+		F794DA222054A50200DB71A4 /* FloatingPoint+Percentages.swift in Sources */ = {isa = PBXBuildFile; fileRef = F794DA1B2054A50200DB71A4 /* FloatingPoint+Percentages.swift */; };
+		F794DA232054A50200DB71A4 /* FloatingPoint+Percentages.swift in Sources */ = {isa = PBXBuildFile; fileRef = F794DA1B2054A50200DB71A4 /* FloatingPoint+Percentages.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +30,10 @@
 		F71EFE562054485A00B49902 /* ZenSwift_Mac.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ZenSwift_Mac.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F76F7EDC20544C39007C919A /* Array+NextPrevious.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Array+NextPrevious.swift"; sourceTree = "<group>"; };
 		F76F7EDD20544C39007C919A /* Array+RemoveItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Array+RemoveItem.swift"; sourceTree = "<group>"; };
+		F794DA162054A50100DB71A4 /* Sequence+ReduceBoolean.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Sequence+ReduceBoolean.swift"; sourceTree = "<group>"; };
+		F794DA182054A50100DB71A4 /* Collection+SafeSubscript.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Collection+SafeSubscript.swift"; sourceTree = "<group>"; };
+		F794DA1A2054A50200DB71A4 /* FloatingPoint+Angles.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "FloatingPoint+Angles.swift"; sourceTree = "<group>"; };
+		F794DA1B2054A50200DB71A4 /* FloatingPoint+Percentages.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "FloatingPoint+Percentages.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +93,9 @@
 			isa = PBXGroup;
 			children = (
 				F76F7EDB20544C39007C919A /* Array */,
+				F794DA172054A50100DB71A4 /* Collection */,
+				F794DA192054A50200DB71A4 /* FloatingPoint */,
+				F794DA152054A50100DB71A4 /* Sequence */,
 			);
 			path = SourceCode;
 			sourceTree = "<group>";
@@ -92,6 +107,31 @@
 				F76F7EDD20544C39007C919A /* Array+RemoveItem.swift */,
 			);
 			path = Array;
+			sourceTree = "<group>";
+		};
+		F794DA152054A50100DB71A4 /* Sequence */ = {
+			isa = PBXGroup;
+			children = (
+				F794DA162054A50100DB71A4 /* Sequence+ReduceBoolean.swift */,
+			);
+			path = Sequence;
+			sourceTree = "<group>";
+		};
+		F794DA172054A50100DB71A4 /* Collection */ = {
+			isa = PBXGroup;
+			children = (
+				F794DA182054A50100DB71A4 /* Collection+SafeSubscript.swift */,
+			);
+			path = Collection;
+			sourceTree = "<group>";
+		};
+		F794DA192054A50200DB71A4 /* FloatingPoint */ = {
+			isa = PBXGroup;
+			children = (
+				F794DA1A2054A50200DB71A4 /* FloatingPoint+Angles.swift */,
+				F794DA1B2054A50200DB71A4 /* FloatingPoint+Percentages.swift */,
+			);
+			path = FloatingPoint;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -213,6 +253,10 @@
 			files = (
 				F76F7EE020544C39007C919A /* Array+RemoveItem.swift in Sources */,
 				F76F7EDE20544C39007C919A /* Array+NextPrevious.swift in Sources */,
+				F794DA1E2054A50200DB71A4 /* Collection+SafeSubscript.swift in Sources */,
+				F794DA202054A50200DB71A4 /* FloatingPoint+Angles.swift in Sources */,
+				F794DA222054A50200DB71A4 /* FloatingPoint+Percentages.swift in Sources */,
+				F794DA1C2054A50200DB71A4 /* Sequence+ReduceBoolean.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -222,6 +266,10 @@
 			files = (
 				F76F7EE120544C39007C919A /* Array+RemoveItem.swift in Sources */,
 				F76F7EDF20544C39007C919A /* Array+NextPrevious.swift in Sources */,
+				F794DA1F2054A50200DB71A4 /* Collection+SafeSubscript.swift in Sources */,
+				F794DA212054A50200DB71A4 /* FloatingPoint+Angles.swift in Sources */,
+				F794DA232054A50200DB71A4 /* FloatingPoint+Percentages.swift in Sources */,
+				F794DA1D2054A50200DB71A4 /* Sequence+ReduceBoolean.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
