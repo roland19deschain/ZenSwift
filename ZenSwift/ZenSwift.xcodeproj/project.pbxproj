@@ -79,6 +79,10 @@
 		F7E6BAF22055E5B0000D2D28 /* Collection+Shuffle.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7E6BAF02055E5B0000D2D28 /* Collection+Shuffle.swift */; };
 		F7E6BAF32055E5B0000D2D28 /* Collection+Shuffle.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7E6BAF02055E5B0000D2D28 /* Collection+Shuffle.swift */; };
 		F7E6BAF42055E5B0000D2D28 /* Collection+Shuffle.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7E6BAF02055E5B0000D2D28 /* Collection+Shuffle.swift */; };
+		F7E6BAF62055E8F6000D2D28 /* Bool+Toggle.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7E6BAF52055E8F6000D2D28 /* Bool+Toggle.swift */; };
+		F7E6BAF72055E8F6000D2D28 /* Bool+Toggle.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7E6BAF52055E8F6000D2D28 /* Bool+Toggle.swift */; };
+		F7E6BAF82055E8F6000D2D28 /* Bool+Toggle.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7E6BAF52055E8F6000D2D28 /* Bool+Toggle.swift */; };
+		F7E6BAF92055E8F6000D2D28 /* Bool+Toggle.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7E6BAF52055E8F6000D2D28 /* Bool+Toggle.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -105,6 +109,7 @@
 		F7E6BAD22055D976000D2D28 /* ZenSwift_watchOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ZenSwift_watchOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7E6BAEA2055E4E2000D2D28 /* Optional+Handle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Optional+Handle.swift"; sourceTree = "<group>"; };
 		F7E6BAF02055E5B0000D2D28 /* Collection+Shuffle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Collection+Shuffle.swift"; sourceTree = "<group>"; };
+		F7E6BAF52055E8F6000D2D28 /* Bool+Toggle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bool+Toggle.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -242,6 +247,7 @@
 		F7E6BA84205553B1000D2D28 /* Bool */ = {
 			isa = PBXGroup;
 			children = (
+				F7E6BAF52055E8F6000D2D28 /* Bool+Toggle.swift */,
 				F7E6BA81205553AC000D2D28 /* Bool+Random.swift */,
 			);
 			path = Bool;
@@ -466,6 +472,7 @@
 				F7E6BA5A205551C9000D2D28 /* String+Digits.swift in Sources */,
 				F794DA222054A50200DB71A4 /* FloatingPoint+Percentages.swift in Sources */,
 				F7E6BA8C20555479000D2D28 /* Int+Random.swift in Sources */,
+				F7E6BAF62055E8F6000D2D28 /* Bool+Toggle.swift in Sources */,
 				F7E6BAF12055E5B0000D2D28 /* Collection+Shuffle.swift in Sources */,
 				F794DA1C2054A50200DB71A4 /* Sequence+ReduceBoolean.swift in Sources */,
 				F7E6BA902055549A000D2D28 /* Int+Angles.swift in Sources */,
@@ -490,6 +497,7 @@
 				F7E6BA5B205551C9000D2D28 /* String+Digits.swift in Sources */,
 				F794DA232054A50200DB71A4 /* FloatingPoint+Percentages.swift in Sources */,
 				F7E6BA8D20555479000D2D28 /* Int+Random.swift in Sources */,
+				F7E6BAF92055E8F6000D2D28 /* Bool+Toggle.swift in Sources */,
 				F7E6BAF42055E5B0000D2D28 /* Collection+Shuffle.swift in Sources */,
 				F794DA1D2054A50200DB71A4 /* Sequence+ReduceBoolean.swift in Sources */,
 				F7E6BA912055549A000D2D28 /* Int+Angles.swift in Sources */,
@@ -514,6 +522,7 @@
 				F7E6BABE2055D7F2000D2D28 /* Int+Angles.swift in Sources */,
 				F7E6BAC32055D7F2000D2D28 /* String+URLs.swift in Sources */,
 				F7E6BAC82055D7F2000D2D28 /* Array+RemoveItem.swift in Sources */,
+				F7E6BAF72055E8F6000D2D28 /* Bool+Toggle.swift in Sources */,
 				F7E6BAF22055E5B0000D2D28 /* Collection+Shuffle.swift in Sources */,
 				F7E6BAC72055D7F2000D2D28 /* Array+NextPrevious.swift in Sources */,
 				F7E6BACA2055D7F2000D2D28 /* Collection+SafeSubscript.swift in Sources */,
@@ -538,6 +547,7 @@
 				F7E6BADB2055D997000D2D28 /* Int+Angles.swift in Sources */,
 				F7E6BAE02055D997000D2D28 /* String+URLs.swift in Sources */,
 				F7E6BAE52055D997000D2D28 /* Array+RemoveItem.swift in Sources */,
+				F7E6BAF82055E8F6000D2D28 /* Bool+Toggle.swift in Sources */,
 				F7E6BAF32055E5B0000D2D28 /* Collection+Shuffle.swift in Sources */,
 				F7E6BAE42055D997000D2D28 /* Array+NextPrevious.swift in Sources */,
 				F7E6BAE72055D997000D2D28 /* Collection+SafeSubscript.swift in Sources */,
