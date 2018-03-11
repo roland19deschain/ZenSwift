@@ -61,7 +61,7 @@
 		F71EFE46205447FE00B49902 /* ZenSwift_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ZenSwift_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F71EFE49205447FE00B49902 /* ZenSwift.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZenSwift.h; sourceTree = "<group>"; };
 		F71EFE4A205447FE00B49902 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F71EFE562054485A00B49902 /* ZenSwift_Mac.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ZenSwift_Mac.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F71EFE562054485A00B49902 /* ZenSwift_macOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ZenSwift_macOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F76F7EDC20544C39007C919A /* Array+NextPrevious.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Array+NextPrevious.swift"; sourceTree = "<group>"; };
 		F76F7EDD20544C39007C919A /* Array+RemoveItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Array+RemoveItem.swift"; sourceTree = "<group>"; };
 		F794DA162054A50100DB71A4 /* Sequence+ReduceBoolean.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Sequence+ReduceBoolean.swift"; sourceTree = "<group>"; };
@@ -117,7 +117,7 @@
 			isa = PBXGroup;
 			children = (
 				F71EFE46205447FE00B49902 /* ZenSwift_iOS.framework */,
-				F71EFE562054485A00B49902 /* ZenSwift_Mac.framework */,
+				F71EFE562054485A00B49902 /* ZenSwift_macOS.framework */,
 				F7E6BAB52055D7C2000D2D28 /* ZenSwift_tvOS.framework */,
 			);
 			name = Products;
@@ -267,9 +267,9 @@
 			productReference = F71EFE46205447FE00B49902 /* ZenSwift_iOS.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		F71EFE552054485A00B49902 /* ZenSwift-Mac */ = {
+		F71EFE552054485A00B49902 /* ZenSwift-macOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F71EFE5B2054485A00B49902 /* Build configuration list for PBXNativeTarget "ZenSwift-Mac" */;
+			buildConfigurationList = F71EFE5B2054485A00B49902 /* Build configuration list for PBXNativeTarget "ZenSwift-macOS" */;
 			buildPhases = (
 				F71EFE512054485A00B49902 /* Sources */,
 				F71EFE522054485A00B49902 /* Frameworks */,
@@ -280,9 +280,9 @@
 			);
 			dependencies = (
 			);
-			name = "ZenSwift-Mac";
+			name = "ZenSwift-macOS";
 			productName = "ZenSwift-Mac";
-			productReference = F71EFE562054485A00B49902 /* ZenSwift_Mac.framework */;
+			productReference = F71EFE562054485A00B49902 /* ZenSwift_macOS.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		F7E6BAB42055D7C2000D2D28 /* ZenSwift-tvOS */ = {
@@ -339,7 +339,7 @@
 			projectRoot = "";
 			targets = (
 				F71EFE45205447FE00B49902 /* ZenSwift-iOS */,
-				F71EFE552054485A00B49902 /* ZenSwift-Mac */,
+				F71EFE552054485A00B49902 /* ZenSwift-macOS */,
 				F7E6BAB42055D7C2000D2D28 /* ZenSwift-tvOS */,
 			);
 		};
@@ -703,7 +703,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F71EFE5B2054485A00B49902 /* Build configuration list for PBXNativeTarget "ZenSwift-Mac" */ = {
+		F71EFE5B2054485A00B49902 /* Build configuration list for PBXNativeTarget "ZenSwift-macOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F71EFE5C2054485A00B49902 /* Debug */,
