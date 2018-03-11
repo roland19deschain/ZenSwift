@@ -83,6 +83,10 @@
 		F7E6BAF72055E8F6000D2D28 /* Bool+Toggle.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7E6BAF52055E8F6000D2D28 /* Bool+Toggle.swift */; };
 		F7E6BAF82055E8F6000D2D28 /* Bool+Toggle.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7E6BAF52055E8F6000D2D28 /* Bool+Toggle.swift */; };
 		F7E6BAF92055E8F6000D2D28 /* Bool+Toggle.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7E6BAF52055E8F6000D2D28 /* Bool+Toggle.swift */; };
+		F7E6BAFB2055E9D1000D2D28 /* Bool+Integer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7E6BAFA2055E9D1000D2D28 /* Bool+Integer.swift */; };
+		F7E6BAFC2055E9D1000D2D28 /* Bool+Integer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7E6BAFA2055E9D1000D2D28 /* Bool+Integer.swift */; };
+		F7E6BAFD2055E9D1000D2D28 /* Bool+Integer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7E6BAFA2055E9D1000D2D28 /* Bool+Integer.swift */; };
+		F7E6BAFE2055E9D1000D2D28 /* Bool+Integer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7E6BAFA2055E9D1000D2D28 /* Bool+Integer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -110,6 +114,7 @@
 		F7E6BAEA2055E4E2000D2D28 /* Optional+Handle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Optional+Handle.swift"; sourceTree = "<group>"; };
 		F7E6BAF02055E5B0000D2D28 /* Collection+Shuffle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Collection+Shuffle.swift"; sourceTree = "<group>"; };
 		F7E6BAF52055E8F6000D2D28 /* Bool+Toggle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bool+Toggle.swift"; sourceTree = "<group>"; };
+		F7E6BAFA2055E9D1000D2D28 /* Bool+Integer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bool+Integer.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -249,6 +254,7 @@
 			children = (
 				F7E6BAF52055E8F6000D2D28 /* Bool+Toggle.swift */,
 				F7E6BA81205553AC000D2D28 /* Bool+Random.swift */,
+				F7E6BAFA2055E9D1000D2D28 /* Bool+Integer.swift */,
 			);
 			path = Bool;
 			sourceTree = "<group>";
@@ -478,6 +484,7 @@
 				F7E6BA902055549A000D2D28 /* Int+Angles.swift in Sources */,
 				F7E6BA58205551C9000D2D28 /* String+URLs.swift in Sources */,
 				F7E6BA8920555461000D2D28 /* Array+Random.swift in Sources */,
+				F7E6BAFB2055E9D1000D2D28 /* Bool+Integer.swift in Sources */,
 				F7E6BAEB2055E4E2000D2D28 /* Optional+Handle.swift in Sources */,
 				F7E6BA5E205551C9000D2D28 /* String+DecimalSeparator.swift in Sources */,
 				F7E6BA5C205551C9000D2D28 /* String+Alphanumeric.swift in Sources */,
@@ -503,6 +510,7 @@
 				F7E6BA912055549A000D2D28 /* Int+Angles.swift in Sources */,
 				F7E6BA59205551C9000D2D28 /* String+URLs.swift in Sources */,
 				F7E6BA8A20555461000D2D28 /* Array+Random.swift in Sources */,
+				F7E6BAFE2055E9D1000D2D28 /* Bool+Integer.swift in Sources */,
 				F7E6BAEE2055E4E2000D2D28 /* Optional+Handle.swift in Sources */,
 				F7E6BA5F205551C9000D2D28 /* String+DecimalSeparator.swift in Sources */,
 				F7E6BA5D205551C9000D2D28 /* String+Alphanumeric.swift in Sources */,
@@ -528,6 +536,7 @@
 				F7E6BACA2055D7F2000D2D28 /* Collection+SafeSubscript.swift in Sources */,
 				F7E6BACB2055D7F2000D2D28 /* Sequence+ReduceBoolean.swift in Sources */,
 				F7E6BAC92055D7F2000D2D28 /* Array+Random.swift in Sources */,
+				F7E6BAFC2055E9D1000D2D28 /* Bool+Integer.swift in Sources */,
 				F7E6BAEC2055E4E2000D2D28 /* Optional+Handle.swift in Sources */,
 				F7E6BAC62055D7F2000D2D28 /* String+DecimalSeparator.swift in Sources */,
 				F7E6BAC52055D7F2000D2D28 /* String+Alphanumeric.swift in Sources */,
@@ -553,6 +562,7 @@
 				F7E6BAE72055D997000D2D28 /* Collection+SafeSubscript.swift in Sources */,
 				F7E6BAE82055D997000D2D28 /* Sequence+ReduceBoolean.swift in Sources */,
 				F7E6BAE62055D997000D2D28 /* Array+Random.swift in Sources */,
+				F7E6BAFD2055E9D1000D2D28 /* Bool+Integer.swift in Sources */,
 				F7E6BAED2055E4E2000D2D28 /* Optional+Handle.swift in Sources */,
 				F7E6BAE32055D997000D2D28 /* String+DecimalSeparator.swift in Sources */,
 				F7E6BAE22055D997000D2D28 /* String+Alphanumeric.swift in Sources */,
