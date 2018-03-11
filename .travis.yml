@@ -1,4 +1,4 @@
-language: objective-c
+language: SWIFT
 osx_image: xcode9.1
 
 env:
