@@ -1,6 +1,6 @@
 import Foundation
 
-extension String {
+public extension String {
     
     static let decimalFormatter: NumberFormatter = {
         let formatter = NumberFormatter()

@@ -1,6 +1,6 @@
 import Foundation
 
-extension String {
+public extension String {
     
     var digits: String {
         let set = CharacterSet.decimalDigits.inverted

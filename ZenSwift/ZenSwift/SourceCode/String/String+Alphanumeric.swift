@@ -1,6 +1,6 @@
 import Foundation
 
-extension String {
+public extension String {
     
     var isLatinAlphanumeric: Bool {
         return !isEmpty && range(of: "[^a-zA-Z0-9]",
@@ -9,7 +9,7 @@ extension String {
     
 }
 
-extension String {
+public extension String {
     
     var isAnyLanguageAlphanumeric: Bool {
         let set = CharacterSet.alphanumerics.inverted
@@ -18,7 +18,7 @@ extension String {
     
 }
 
-extension String {
+public extension String {
     
     var isLatinAndRuAlphanumeric: Bool {
         return !isEmpty && range(of: "[^a-zA-Zа-яёА-ЯЁ0-9]",

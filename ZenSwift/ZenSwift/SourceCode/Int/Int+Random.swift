@@ -1,6 +1,6 @@
 import Foundation
 
-extension Int {
+public extension Int {
     
     static func random(_ n: Int) -> Int {
         return Int(arc4random_uniform(UInt32(n)))

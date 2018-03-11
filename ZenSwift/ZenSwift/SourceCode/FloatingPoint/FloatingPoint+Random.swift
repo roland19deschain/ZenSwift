@@ -1,6 +1,6 @@
 import Foundation
 
-extension FloatingPoint {
+public extension FloatingPoint {
     
     static var random: Self {
         return Self(arc4random()) / 0xFFFFFFFF
