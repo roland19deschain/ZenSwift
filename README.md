@@ -5,10 +5,6 @@
 [![License](https://img.shields.io/cocoapods/l/ZenSwift.svg?style=flat)](http://cocoapods.org/pods/ZenSwift)
 [![Platform](https://img.shields.io/cocoapods/p/ZenSwift.svg?style=flat)](http://cocoapods.org/pods/ZenSwift)
 
-## Example
-
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
-
 ## Requirements:
 - **iOS** 9.0+ / **tvOS** 9.0+ / **watchOS** 2.0+ / **macOS** 10.10+
 - Xcode 9.0+
@@ -30,4 +26,4 @@ roland19deschain
 
 ## License
 
-ZenSwift is available under the MIT license. See the LICENSE file for more info.
+ZenSwift is released under an MIT license. See [LICENSE](LICENSE) for more information.
