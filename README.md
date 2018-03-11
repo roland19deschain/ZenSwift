@@ -1,6 +1,6 @@
 # ZenSwift
 
-[![CI Status](http://img.shields.io/travis/roland19deschain@gmail.com/ZenSwift.svg?style=flat)](https://travis-ci.org/roland19deschain@gmail.com/ZenSwift)
+[![CI Status](http://img.shields.io/travis/roland19deschain/ZenSwift.svg?style=flat)](https://travis-ci.org/roland19deschain/ZenSwift)
 [![Version](https://img.shields.io/cocoapods/v/ZenSwift.svg?style=flat)](http://cocoapods.org/pods/ZenSwift)
 [![License](https://img.shields.io/cocoapods/l/ZenSwift.svg?style=flat)](http://cocoapods.org/pods/ZenSwift)
 [![Platform](https://img.shields.io/cocoapods/p/ZenSwift.svg?style=flat)](http://cocoapods.org/pods/ZenSwift)
