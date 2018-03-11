@@ -1,0 +1,15 @@
+language: objective-c
+osx_image: xcode9.1
+
+env:
+  global:
+    - PROJECT='ZenSwift.xcodeproj'
+    - IOS_SCHEME='ZenSwift-iOS'
+    - TVOS_SCHEME='ZenSwift-tvOS'
+    - WATCHOS_SCHEME='ZenSwift-watchOS'
+    - MACOS_SCHEME='ZenSwift-macOS'
+    - IOS_DESTINATION='platform=iOS Simulator,name=iPhone 6S'
+    - TVOS_DESTINATION='platform=tvOS Simulator,name=Apple TV 4K (at 1080p)'
+    - WATCHOS_DESTINATION='name=Apple Watch - 42mm'
+    - MACOS_DESTINATION='platform=OS X'
+    
