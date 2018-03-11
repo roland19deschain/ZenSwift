@@ -21,6 +21,14 @@
 		F794DA212054A50200DB71A4 /* FloatingPoint+Angles.swift in Sources */ = {isa = PBXBuildFile; fileRef = F794DA1A2054A50200DB71A4 /* FloatingPoint+Angles.swift */; };
 		F794DA222054A50200DB71A4 /* FloatingPoint+Percentages.swift in Sources */ = {isa = PBXBuildFile; fileRef = F794DA1B2054A50200DB71A4 /* FloatingPoint+Percentages.swift */; };
 		F794DA232054A50200DB71A4 /* FloatingPoint+Percentages.swift in Sources */ = {isa = PBXBuildFile; fileRef = F794DA1B2054A50200DB71A4 /* FloatingPoint+Percentages.swift */; };
+		F7E6BA58205551C9000D2D28 /* String+URLs.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7E6BA54205551C8000D2D28 /* String+URLs.swift */; };
+		F7E6BA59205551C9000D2D28 /* String+URLs.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7E6BA54205551C8000D2D28 /* String+URLs.swift */; };
+		F7E6BA5A205551C9000D2D28 /* String+Digits.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7E6BA55205551C8000D2D28 /* String+Digits.swift */; };
+		F7E6BA5B205551C9000D2D28 /* String+Digits.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7E6BA55205551C8000D2D28 /* String+Digits.swift */; };
+		F7E6BA5C205551C9000D2D28 /* String+Alphanumeric.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7E6BA56205551C8000D2D28 /* String+Alphanumeric.swift */; };
+		F7E6BA5D205551C9000D2D28 /* String+Alphanumeric.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7E6BA56205551C8000D2D28 /* String+Alphanumeric.swift */; };
+		F7E6BA5E205551C9000D2D28 /* String+DecimalSeparator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7E6BA57205551C8000D2D28 /* String+DecimalSeparator.swift */; };
+		F7E6BA5F205551C9000D2D28 /* String+DecimalSeparator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7E6BA57205551C8000D2D28 /* String+DecimalSeparator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +42,10 @@
 		F794DA182054A50100DB71A4 /* Collection+SafeSubscript.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Collection+SafeSubscript.swift"; sourceTree = "<group>"; };
 		F794DA1A2054A50200DB71A4 /* FloatingPoint+Angles.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "FloatingPoint+Angles.swift"; sourceTree = "<group>"; };
 		F794DA1B2054A50200DB71A4 /* FloatingPoint+Percentages.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "FloatingPoint+Percentages.swift"; sourceTree = "<group>"; };
+		F7E6BA54205551C8000D2D28 /* String+URLs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+URLs.swift"; sourceTree = "<group>"; };
+		F7E6BA55205551C8000D2D28 /* String+Digits.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Digits.swift"; sourceTree = "<group>"; };
+		F7E6BA56205551C8000D2D28 /* String+Alphanumeric.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Alphanumeric.swift"; sourceTree = "<group>"; };
+		F7E6BA57205551C8000D2D28 /* String+DecimalSeparator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+DecimalSeparator.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +104,7 @@
 		F76F7EDA20544C39007C919A /* SourceCode */ = {
 			isa = PBXGroup;
 			children = (
+				F7E6BA53205551C8000D2D28 /* String */,
 				F76F7EDB20544C39007C919A /* Array */,
 				F794DA172054A50100DB71A4 /* Collection */,
 				F794DA192054A50200DB71A4 /* FloatingPoint */,
@@ -132,6 +145,17 @@
 				F794DA1B2054A50200DB71A4 /* FloatingPoint+Percentages.swift */,
 			);
 			path = FloatingPoint;
+			sourceTree = "<group>";
+		};
+		F7E6BA53205551C8000D2D28 /* String */ = {
+			isa = PBXGroup;
+			children = (
+				F7E6BA54205551C8000D2D28 /* String+URLs.swift */,
+				F7E6BA55205551C8000D2D28 /* String+Digits.swift */,
+				F7E6BA56205551C8000D2D28 /* String+Alphanumeric.swift */,
+				F7E6BA57205551C8000D2D28 /* String+DecimalSeparator.swift */,
+			);
+			path = String;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -255,8 +279,12 @@
 				F76F7EDE20544C39007C919A /* Array+NextPrevious.swift in Sources */,
 				F794DA1E2054A50200DB71A4 /* Collection+SafeSubscript.swift in Sources */,
 				F794DA202054A50200DB71A4 /* FloatingPoint+Angles.swift in Sources */,
+				F7E6BA5A205551C9000D2D28 /* String+Digits.swift in Sources */,
 				F794DA222054A50200DB71A4 /* FloatingPoint+Percentages.swift in Sources */,
 				F794DA1C2054A50200DB71A4 /* Sequence+ReduceBoolean.swift in Sources */,
+				F7E6BA58205551C9000D2D28 /* String+URLs.swift in Sources */,
+				F7E6BA5E205551C9000D2D28 /* String+DecimalSeparator.swift in Sources */,
+				F7E6BA5C205551C9000D2D28 /* String+Alphanumeric.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,8 +296,12 @@
 				F76F7EDF20544C39007C919A /* Array+NextPrevious.swift in Sources */,
 				F794DA1F2054A50200DB71A4 /* Collection+SafeSubscript.swift in Sources */,
 				F794DA212054A50200DB71A4 /* FloatingPoint+Angles.swift in Sources */,
+				F7E6BA5B205551C9000D2D28 /* String+Digits.swift in Sources */,
 				F794DA232054A50200DB71A4 /* FloatingPoint+Percentages.swift in Sources */,
 				F794DA1D2054A50200DB71A4 /* Sequence+ReduceBoolean.swift in Sources */,
+				F7E6BA59205551C9000D2D28 /* String+URLs.swift in Sources */,
+				F7E6BA5F205551C9000D2D28 /* String+DecimalSeparator.swift in Sources */,
+				F7E6BA5D205551C9000D2D28 /* String+Alphanumeric.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
