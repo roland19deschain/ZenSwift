@@ -12,13 +12,26 @@
 
 ## Installation
 
-ZenSwift is available through [CocoaPods](http://cocoapods.org). To install
-it, simply add the following line to your Podfile:
+#### [CocoaPods](http://cocoapods.org)
+Add `ZenSwift` to your `Podfile`:
 
 ```ruby
 pod 'ZenSwift'
 ```
-and run `pod install`
+
+#### [Swift Package Manager](https://swift.org/package-manager/)
+
+Add `ZenSwift` to your `Package.swift`
+
+```swift
+import PackageDescription
+
+let package = Package(
+dependencies: [
+.package(url: "https://github.com/ZenSwift/ZenSwift.git", from: "0.1.10")
+]
+)
+```
 
 ## Author
 
