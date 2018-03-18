@@ -21,12 +21,34 @@
 		F794DA212054A50200DB71A4 /* FloatingPoint+Angles.swift in Sources */ = {isa = PBXBuildFile; fileRef = F794DA1A2054A50200DB71A4 /* FloatingPoint+Angles.swift */; };
 		F794DA222054A50200DB71A4 /* FloatingPoint+Percentages.swift in Sources */ = {isa = PBXBuildFile; fileRef = F794DA1B2054A50200DB71A4 /* FloatingPoint+Percentages.swift */; };
 		F794DA232054A50200DB71A4 /* FloatingPoint+Percentages.swift in Sources */ = {isa = PBXBuildFile; fileRef = F794DA1B2054A50200DB71A4 /* FloatingPoint+Percentages.swift */; };
+		F7A031902059DDCE0028039D /* String+Lines.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7A0318F2059DDCE0028039D /* String+Lines.swift */; };
+		F7A031912059DDCE0028039D /* String+Lines.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7A0318F2059DDCE0028039D /* String+Lines.swift */; };
+		F7A031922059DDCE0028039D /* String+Lines.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7A0318F2059DDCE0028039D /* String+Lines.swift */; };
+		F7A031932059DDCE0028039D /* String+Lines.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7A0318F2059DDCE0028039D /* String+Lines.swift */; };
+		F7A031952059DDF90028039D /* String+Localization.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7A031942059DDF90028039D /* String+Localization.swift */; };
+		F7A031962059DDF90028039D /* String+Localization.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7A031942059DDF90028039D /* String+Localization.swift */; };
+		F7A031972059DDF90028039D /* String+Localization.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7A031942059DDF90028039D /* String+Localization.swift */; };
+		F7A031982059DDF90028039D /* String+Localization.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7A031942059DDF90028039D /* String+Localization.swift */; };
+		F7A0319A2059DE180028039D /* String+Introspection.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7A031992059DE180028039D /* String+Introspection.swift */; };
+		F7A0319B2059DE180028039D /* String+Introspection.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7A031992059DE180028039D /* String+Introspection.swift */; };
+		F7A0319C2059DE180028039D /* String+Introspection.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7A031992059DE180028039D /* String+Introspection.swift */; };
+		F7A0319D2059DE180028039D /* String+Introspection.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7A031992059DE180028039D /* String+Introspection.swift */; };
+		F7A0319F2059DE380028039D /* String+Style.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7A0319E2059DE380028039D /* String+Style.swift */; };
+		F7A031A02059DE380028039D /* String+Style.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7A0319E2059DE380028039D /* String+Style.swift */; };
+		F7A031A12059DE380028039D /* String+Style.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7A0319E2059DE380028039D /* String+Style.swift */; };
+		F7A031A22059DE380028039D /* String+Style.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7A0319E2059DE380028039D /* String+Style.swift */; };
+		F7A031A42059DE5F0028039D /* String+Trim.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7A031A32059DE5F0028039D /* String+Trim.swift */; };
+		F7A031A52059DE5F0028039D /* String+Trim.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7A031A32059DE5F0028039D /* String+Trim.swift */; };
+		F7A031A62059DE5F0028039D /* String+Trim.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7A031A32059DE5F0028039D /* String+Trim.swift */; };
+		F7A031A72059DE5F0028039D /* String+Trim.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7A031A32059DE5F0028039D /* String+Trim.swift */; };
+		F7A031A92059DEDE0028039D /* String+Attributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7A031A82059DEDE0028039D /* String+Attributes.swift */; };
+		F7A031AA2059DEDE0028039D /* String+Attributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7A031A82059DEDE0028039D /* String+Attributes.swift */; };
+		F7A031AB2059DEDE0028039D /* String+Attributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7A031A82059DEDE0028039D /* String+Attributes.swift */; };
+		F7A031AC2059DEDE0028039D /* String+Attributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7A031A82059DEDE0028039D /* String+Attributes.swift */; };
 		F7E6BA58205551C9000D2D28 /* String+URLs.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7E6BA54205551C8000D2D28 /* String+URLs.swift */; };
 		F7E6BA59205551C9000D2D28 /* String+URLs.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7E6BA54205551C8000D2D28 /* String+URLs.swift */; };
 		F7E6BA5A205551C9000D2D28 /* String+Digits.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7E6BA55205551C8000D2D28 /* String+Digits.swift */; };
 		F7E6BA5B205551C9000D2D28 /* String+Digits.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7E6BA55205551C8000D2D28 /* String+Digits.swift */; };
-		F7E6BA5C205551C9000D2D28 /* String+Alphanumeric.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7E6BA56205551C8000D2D28 /* String+Alphanumeric.swift */; };
-		F7E6BA5D205551C9000D2D28 /* String+Alphanumeric.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7E6BA56205551C8000D2D28 /* String+Alphanumeric.swift */; };
 		F7E6BA5E205551C9000D2D28 /* String+DecimalSeparator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7E6BA57205551C8000D2D28 /* String+DecimalSeparator.swift */; };
 		F7E6BA5F205551C9000D2D28 /* String+DecimalSeparator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7E6BA57205551C8000D2D28 /* String+DecimalSeparator.swift */; };
 		F7E6BA82205553AC000D2D28 /* Bool+Random.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7E6BA81205553AC000D2D28 /* Bool+Random.swift */; };
@@ -47,7 +69,6 @@
 		F7E6BAC22055D7F2000D2D28 /* FloatingPoint+Random.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7E6BA8520555414000D2D28 /* FloatingPoint+Random.swift */; };
 		F7E6BAC32055D7F2000D2D28 /* String+URLs.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7E6BA54205551C8000D2D28 /* String+URLs.swift */; };
 		F7E6BAC42055D7F2000D2D28 /* String+Digits.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7E6BA55205551C8000D2D28 /* String+Digits.swift */; };
-		F7E6BAC52055D7F2000D2D28 /* String+Alphanumeric.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7E6BA56205551C8000D2D28 /* String+Alphanumeric.swift */; };
 		F7E6BAC62055D7F2000D2D28 /* String+DecimalSeparator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7E6BA57205551C8000D2D28 /* String+DecimalSeparator.swift */; };
 		F7E6BAC72055D7F2000D2D28 /* Array+NextPrevious.swift in Sources */ = {isa = PBXBuildFile; fileRef = F76F7EDC20544C39007C919A /* Array+NextPrevious.swift */; };
 		F7E6BAC82055D7F2000D2D28 /* Array+RemoveItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = F76F7EDD20544C39007C919A /* Array+RemoveItem.swift */; };
@@ -63,7 +84,6 @@
 		F7E6BADF2055D997000D2D28 /* FloatingPoint+Random.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7E6BA8520555414000D2D28 /* FloatingPoint+Random.swift */; };
 		F7E6BAE02055D997000D2D28 /* String+URLs.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7E6BA54205551C8000D2D28 /* String+URLs.swift */; };
 		F7E6BAE12055D997000D2D28 /* String+Digits.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7E6BA55205551C8000D2D28 /* String+Digits.swift */; };
-		F7E6BAE22055D997000D2D28 /* String+Alphanumeric.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7E6BA56205551C8000D2D28 /* String+Alphanumeric.swift */; };
 		F7E6BAE32055D997000D2D28 /* String+DecimalSeparator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7E6BA57205551C8000D2D28 /* String+DecimalSeparator.swift */; };
 		F7E6BAE42055D997000D2D28 /* Array+NextPrevious.swift in Sources */ = {isa = PBXBuildFile; fileRef = F76F7EDC20544C39007C919A /* Array+NextPrevious.swift */; };
 		F7E6BAE52055D997000D2D28 /* Array+RemoveItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = F76F7EDD20544C39007C919A /* Array+RemoveItem.swift */; };
@@ -100,9 +120,14 @@
 		F794DA182054A50100DB71A4 /* Collection+SafeSubscript.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Collection+SafeSubscript.swift"; sourceTree = "<group>"; };
 		F794DA1A2054A50200DB71A4 /* FloatingPoint+Angles.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "FloatingPoint+Angles.swift"; sourceTree = "<group>"; };
 		F794DA1B2054A50200DB71A4 /* FloatingPoint+Percentages.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "FloatingPoint+Percentages.swift"; sourceTree = "<group>"; };
+		F7A0318F2059DDCE0028039D /* String+Lines.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Lines.swift"; sourceTree = "<group>"; };
+		F7A031942059DDF90028039D /* String+Localization.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Localization.swift"; sourceTree = "<group>"; };
+		F7A031992059DE180028039D /* String+Introspection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Introspection.swift"; sourceTree = "<group>"; };
+		F7A0319E2059DE380028039D /* String+Style.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Style.swift"; sourceTree = "<group>"; };
+		F7A031A32059DE5F0028039D /* String+Trim.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Trim.swift"; sourceTree = "<group>"; };
+		F7A031A82059DEDE0028039D /* String+Attributes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Attributes.swift"; sourceTree = "<group>"; };
 		F7E6BA54205551C8000D2D28 /* String+URLs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+URLs.swift"; sourceTree = "<group>"; };
 		F7E6BA55205551C8000D2D28 /* String+Digits.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Digits.swift"; sourceTree = "<group>"; };
-		F7E6BA56205551C8000D2D28 /* String+Alphanumeric.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Alphanumeric.swift"; sourceTree = "<group>"; };
 		F7E6BA57205551C8000D2D28 /* String+DecimalSeparator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+DecimalSeparator.swift"; sourceTree = "<group>"; };
 		F7E6BA81205553AC000D2D28 /* Bool+Random.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bool+Random.swift"; sourceTree = "<group>"; };
 		F7E6BA8520555414000D2D28 /* FloatingPoint+Random.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FloatingPoint+Random.swift"; sourceTree = "<group>"; };
@@ -242,8 +267,13 @@
 			isa = PBXGroup;
 			children = (
 				F7E6BA54205551C8000D2D28 /* String+URLs.swift */,
+				F7A0318F2059DDCE0028039D /* String+Lines.swift */,
+				F7A031942059DDF90028039D /* String+Localization.swift */,
+				F7A031992059DE180028039D /* String+Introspection.swift */,
+				F7A0319E2059DE380028039D /* String+Style.swift */,
+				F7A031A32059DE5F0028039D /* String+Trim.swift */,
 				F7E6BA55205551C8000D2D28 /* String+Digits.swift */,
-				F7E6BA56205551C8000D2D28 /* String+Alphanumeric.swift */,
+				F7A031A82059DEDE0028039D /* String+Attributes.swift */,
 				F7E6BA57205551C8000D2D28 /* String+DecimalSeparator.swift */,
 			);
 			path = String;
@@ -471,23 +501,28 @@
 			files = (
 				F76F7EE020544C39007C919A /* Array+RemoveItem.swift in Sources */,
 				F76F7EDE20544C39007C919A /* Array+NextPrevious.swift in Sources */,
+				F7A031A42059DE5F0028039D /* String+Trim.swift in Sources */,
 				F7E6BA82205553AC000D2D28 /* Bool+Random.swift in Sources */,
 				F7E6BA8620555414000D2D28 /* FloatingPoint+Random.swift in Sources */,
+				F7A0319F2059DE380028039D /* String+Style.swift in Sources */,
 				F794DA1E2054A50200DB71A4 /* Collection+SafeSubscript.swift in Sources */,
 				F794DA202054A50200DB71A4 /* FloatingPoint+Angles.swift in Sources */,
 				F7E6BA5A205551C9000D2D28 /* String+Digits.swift in Sources */,
 				F794DA222054A50200DB71A4 /* FloatingPoint+Percentages.swift in Sources */,
 				F7E6BA8C20555479000D2D28 /* Int+Random.swift in Sources */,
 				F7E6BAF62055E8F6000D2D28 /* Bool+Toggle.swift in Sources */,
+				F7A031A92059DEDE0028039D /* String+Attributes.swift in Sources */,
 				F7E6BAF12055E5B0000D2D28 /* Collection+Shuffle.swift in Sources */,
 				F794DA1C2054A50200DB71A4 /* Sequence+ReduceBoolean.swift in Sources */,
+				F7A031952059DDF90028039D /* String+Localization.swift in Sources */,
 				F7E6BA902055549A000D2D28 /* Int+Angles.swift in Sources */,
+				F7A0319A2059DE180028039D /* String+Introspection.swift in Sources */,
 				F7E6BA58205551C9000D2D28 /* String+URLs.swift in Sources */,
+				F7A031902059DDCE0028039D /* String+Lines.swift in Sources */,
 				F7E6BA8920555461000D2D28 /* Array+Random.swift in Sources */,
 				F7E6BAFB2055E9D1000D2D28 /* Bool+Integer.swift in Sources */,
 				F7E6BAEB2055E4E2000D2D28 /* Optional+Handle.swift in Sources */,
 				F7E6BA5E205551C9000D2D28 /* String+DecimalSeparator.swift in Sources */,
-				F7E6BA5C205551C9000D2D28 /* String+Alphanumeric.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -497,23 +532,28 @@
 			files = (
 				F76F7EE120544C39007C919A /* Array+RemoveItem.swift in Sources */,
 				F76F7EDF20544C39007C919A /* Array+NextPrevious.swift in Sources */,
+				F7A031A72059DE5F0028039D /* String+Trim.swift in Sources */,
 				F7E6BA83205553AC000D2D28 /* Bool+Random.swift in Sources */,
 				F7E6BA8720555414000D2D28 /* FloatingPoint+Random.swift in Sources */,
+				F7A031A22059DE380028039D /* String+Style.swift in Sources */,
 				F794DA1F2054A50200DB71A4 /* Collection+SafeSubscript.swift in Sources */,
 				F794DA212054A50200DB71A4 /* FloatingPoint+Angles.swift in Sources */,
 				F7E6BA5B205551C9000D2D28 /* String+Digits.swift in Sources */,
 				F794DA232054A50200DB71A4 /* FloatingPoint+Percentages.swift in Sources */,
 				F7E6BA8D20555479000D2D28 /* Int+Random.swift in Sources */,
 				F7E6BAF92055E8F6000D2D28 /* Bool+Toggle.swift in Sources */,
+				F7A031AC2059DEDE0028039D /* String+Attributes.swift in Sources */,
 				F7E6BAF42055E5B0000D2D28 /* Collection+Shuffle.swift in Sources */,
 				F794DA1D2054A50200DB71A4 /* Sequence+ReduceBoolean.swift in Sources */,
+				F7A031982059DDF90028039D /* String+Localization.swift in Sources */,
 				F7E6BA912055549A000D2D28 /* Int+Angles.swift in Sources */,
+				F7A0319D2059DE180028039D /* String+Introspection.swift in Sources */,
 				F7E6BA59205551C9000D2D28 /* String+URLs.swift in Sources */,
+				F7A031932059DDCE0028039D /* String+Lines.swift in Sources */,
 				F7E6BA8A20555461000D2D28 /* Array+Random.swift in Sources */,
 				F7E6BAFE2055E9D1000D2D28 /* Bool+Integer.swift in Sources */,
 				F7E6BAEE2055E4E2000D2D28 /* Optional+Handle.swift in Sources */,
 				F7E6BA5F205551C9000D2D28 /* String+DecimalSeparator.swift in Sources */,
-				F7E6BA5D205551C9000D2D28 /* String+Alphanumeric.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -523,23 +563,28 @@
 			files = (
 				F7E6BAC02055D7F2000D2D28 /* FloatingPoint+Angles.swift in Sources */,
 				F7E6BAC12055D7F2000D2D28 /* FloatingPoint+Percentages.swift in Sources */,
+				F7A031A52059DE5F0028039D /* String+Trim.swift in Sources */,
 				F7E6BABD2055D7F2000D2D28 /* Bool+Random.swift in Sources */,
 				F7E6BAC22055D7F2000D2D28 /* FloatingPoint+Random.swift in Sources */,
+				F7A031A02059DE380028039D /* String+Style.swift in Sources */,
 				F7E6BAC42055D7F2000D2D28 /* String+Digits.swift in Sources */,
 				F7E6BABF2055D7F2000D2D28 /* Int+Random.swift in Sources */,
 				F7E6BABE2055D7F2000D2D28 /* Int+Angles.swift in Sources */,
 				F7E6BAC32055D7F2000D2D28 /* String+URLs.swift in Sources */,
 				F7E6BAC82055D7F2000D2D28 /* Array+RemoveItem.swift in Sources */,
 				F7E6BAF72055E8F6000D2D28 /* Bool+Toggle.swift in Sources */,
+				F7A031AA2059DEDE0028039D /* String+Attributes.swift in Sources */,
 				F7E6BAF22055E5B0000D2D28 /* Collection+Shuffle.swift in Sources */,
 				F7E6BAC72055D7F2000D2D28 /* Array+NextPrevious.swift in Sources */,
+				F7A031962059DDF90028039D /* String+Localization.swift in Sources */,
 				F7E6BACA2055D7F2000D2D28 /* Collection+SafeSubscript.swift in Sources */,
+				F7A0319B2059DE180028039D /* String+Introspection.swift in Sources */,
 				F7E6BACB2055D7F2000D2D28 /* Sequence+ReduceBoolean.swift in Sources */,
+				F7A031912059DDCE0028039D /* String+Lines.swift in Sources */,
 				F7E6BAC92055D7F2000D2D28 /* Array+Random.swift in Sources */,
 				F7E6BAFC2055E9D1000D2D28 /* Bool+Integer.swift in Sources */,
 				F7E6BAEC2055E4E2000D2D28 /* Optional+Handle.swift in Sources */,
 				F7E6BAC62055D7F2000D2D28 /* String+DecimalSeparator.swift in Sources */,
-				F7E6BAC52055D7F2000D2D28 /* String+Alphanumeric.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -549,23 +594,28 @@
 			files = (
 				F7E6BADD2055D997000D2D28 /* FloatingPoint+Angles.swift in Sources */,
 				F7E6BADE2055D997000D2D28 /* FloatingPoint+Percentages.swift in Sources */,
+				F7A031A62059DE5F0028039D /* String+Trim.swift in Sources */,
 				F7E6BADA2055D997000D2D28 /* Bool+Random.swift in Sources */,
 				F7E6BADF2055D997000D2D28 /* FloatingPoint+Random.swift in Sources */,
+				F7A031A12059DE380028039D /* String+Style.swift in Sources */,
 				F7E6BAE12055D997000D2D28 /* String+Digits.swift in Sources */,
 				F7E6BADC2055D997000D2D28 /* Int+Random.swift in Sources */,
 				F7E6BADB2055D997000D2D28 /* Int+Angles.swift in Sources */,
 				F7E6BAE02055D997000D2D28 /* String+URLs.swift in Sources */,
 				F7E6BAE52055D997000D2D28 /* Array+RemoveItem.swift in Sources */,
 				F7E6BAF82055E8F6000D2D28 /* Bool+Toggle.swift in Sources */,
+				F7A031AB2059DEDE0028039D /* String+Attributes.swift in Sources */,
 				F7E6BAF32055E5B0000D2D28 /* Collection+Shuffle.swift in Sources */,
 				F7E6BAE42055D997000D2D28 /* Array+NextPrevious.swift in Sources */,
+				F7A031972059DDF90028039D /* String+Localization.swift in Sources */,
 				F7E6BAE72055D997000D2D28 /* Collection+SafeSubscript.swift in Sources */,
+				F7A0319C2059DE180028039D /* String+Introspection.swift in Sources */,
 				F7E6BAE82055D997000D2D28 /* Sequence+ReduceBoolean.swift in Sources */,
+				F7A031922059DDCE0028039D /* String+Lines.swift in Sources */,
 				F7E6BAE62055D997000D2D28 /* Array+Random.swift in Sources */,
 				F7E6BAFD2055E9D1000D2D28 /* Bool+Integer.swift in Sources */,
 				F7E6BAED2055E4E2000D2D28 /* Optional+Handle.swift in Sources */,
 				F7E6BAE32055D997000D2D28 /* String+DecimalSeparator.swift in Sources */,
-				F7E6BAE22055D997000D2D28 /* String+Alphanumeric.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

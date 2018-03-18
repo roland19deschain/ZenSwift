@@ -2,7 +2,7 @@ import Foundation
 
 public extension Bool {
     
-    /// Return inversed value of bool.
+    /// Returns inversed value of bool.
     var toggled: Bool {
         return !self
     }

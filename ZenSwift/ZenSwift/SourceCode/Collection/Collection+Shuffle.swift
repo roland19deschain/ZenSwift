@@ -2,7 +2,7 @@ import Foundation
 
 public extension Collection {
     
-    /// Return a copy of 'self' with its elements shuffled.
+    /// Returns a copy of 'self' with its elements shuffled.
     var shuffle: [Iterator.Element] {
         var list = Array(self)
         list.shuffleInPlace()
