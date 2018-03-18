@@ -28,7 +28,7 @@ import PackageDescription
 
 let package = Package(
 dependencies: [
-.package(url: "https://github.com/ZenSwift/ZenSwift.git", from: "0.1.10")
+.package(url: "https://github.com/roland19deschain/ZenSwift.git", from: "0.1.0")
 ]
 )
 ```

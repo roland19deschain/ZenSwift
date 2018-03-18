@@ -1,3 +1,5 @@
 import PackageDescription
 
-let package = Package(name: "ZenSwift")
+let package = Package(
+    name: "ZenSwift"
+)
