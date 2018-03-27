@@ -1,6 +1,6 @@
 import Foundation
 
-extension URL {
+public extension URL {
     
     /// Returns url with given query parameters.
     func with(_ queryParameters: [String: String]) -> URL? {
@@ -19,7 +19,7 @@ extension URL {
     }
     
     /// Add query parameters to url.
-    mutating func add(_ queryParameters: [String: String]) {
+    mutating func append(_ queryParameters: [String: String]) {
         guard var components = URLComponents(url: self,
                                              resolvingAgainstBaseURL: false) else {
             return
