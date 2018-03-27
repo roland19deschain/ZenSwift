@@ -9,6 +9,12 @@ public extension String {
             .evaluate(with: self)
     }
     
+    /// Returns true if string contains digits only.
+    var isNumeric: Bool {
+        return !isEmpty && range(of: "[^0-9]",
+                                 options: .regularExpression) == nil
+    }
+    
     /// Returns true if string contains only alphanumeric characters.
     var isAlphanumeric: Bool {
         let set = CharacterSet.alphanumerics.inverted
