@@ -2,9 +2,9 @@ Pod::Spec.new do |s|
   s.name             = 'ZenSwift'
   s.version          = '0.1.16'
   s.swift_version    = '4.0'
-  s.summary          = 'ZenSwift is a collection of Swift stdlib extensions.'
+  s.summary          = 'ZenSwift is a collection of components and Swift stdlib extensions.'
   s.description      = <<-DESC
-ZenSwift is a collection of convenient and concise extensions of Swift standard library.
+ZenSwift is a collection of components and extensions of Swift standard library.
                        DESC
   s.homepage         = 'https://github.com/roland19deschain/ZenSwift'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
