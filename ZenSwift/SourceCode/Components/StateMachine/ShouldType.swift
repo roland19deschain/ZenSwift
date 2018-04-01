@@ -1,6 +1,6 @@
 import Foundation
 
-enum Should<T> {
+public enum Should<T> {
     case execute
     case forward(T)
     case redirect(T)

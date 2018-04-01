@@ -1,6 +1,6 @@
 import Foundation
 
-protocol StateMachineDelegate: class {
+public protocol StateMachineDelegate: class {
     associatedtype State: StateMachineDataSource
     
     func willTransition(from: State,
@@ -11,7 +11,7 @@ protocol StateMachineDelegate: class {
                   to: State)
 }
 
-extension StateMachineDelegate {
+public extension StateMachineDelegate {
     
     func willTransition(from: State,
                         to: State) {}

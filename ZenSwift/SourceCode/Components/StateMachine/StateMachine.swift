@@ -1,8 +1,8 @@
 import Foundation
 
-final class StateMachine<Delegate: StateMachineDelegate> {
+public final class StateMachine<Delegate: StateMachineDelegate> {
     
-    // MARK: - Internal - Computed Properties -
+    // MARK: - Public - Computed Properties -
     
     var state: Delegate.State {
         get {
@@ -27,11 +27,11 @@ final class StateMachine<Delegate: StateMachineDelegate> {
         }
     }
     
-    // MARK: - Internal - Stored Properties -
+    // MARK: - Public - Stored Properties -
     
     weak var delegate: Delegate?
     
-    // MARK: - Internal - Life Cycle -
+    // MARK: - Public - Life Cycle -
     
     init(state: Delegate.State) {
         currentState = state
