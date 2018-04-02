@@ -4,7 +4,7 @@ public final class Weak<T: AnyObject> {
     
     // MARK: - Public - Stored Properties - Read Only -
     
-    private(set) weak var value: T?
+    public private(set) weak var value: T?
     
     // MARK: - Public - Life Cycle -
     
