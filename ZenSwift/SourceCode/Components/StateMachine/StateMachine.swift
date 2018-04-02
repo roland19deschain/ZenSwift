@@ -4,7 +4,7 @@ public final class StateMachine<Delegate: StateMachineDelegate> {
     
     // MARK: - Public - Computed Properties -
     
-    var state: Delegate.State {
+    public var state: Delegate.State {
         get {
             return currentState
         }
@@ -29,15 +29,15 @@ public final class StateMachine<Delegate: StateMachineDelegate> {
     
     // MARK: - Public - Stored Properties -
     
-    weak var delegate: Delegate?
+    public weak var delegate: Delegate?
     
     // MARK: - Public - Life Cycle -
     
-    init(state: Delegate.State) {
+    public init(state: Delegate.State) {
         currentState = state
     }
     
-    convenience init(delegate: Delegate,
+    public convenience init(delegate: Delegate,
                      state: Delegate.State) {
         self.init(state: state)
         self.delegate = delegate
