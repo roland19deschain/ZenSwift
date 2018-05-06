@@ -77,8 +77,6 @@
 		F7E6BA59205551C9000D2D28 /* String+URLs.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7E6BA54205551C8000D2D28 /* String+URLs.swift */; };
 		F7E6BA5A205551C9000D2D28 /* String+Digits.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7E6BA55205551C8000D2D28 /* String+Digits.swift */; };
 		F7E6BA5B205551C9000D2D28 /* String+Digits.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7E6BA55205551C8000D2D28 /* String+Digits.swift */; };
-		F7E6BA5E205551C9000D2D28 /* String+DecimalSeparator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7E6BA57205551C8000D2D28 /* String+DecimalSeparator.swift */; };
-		F7E6BA5F205551C9000D2D28 /* String+DecimalSeparator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7E6BA57205551C8000D2D28 /* String+DecimalSeparator.swift */; };
 		F7E6BA82205553AC000D2D28 /* Bool+Random.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7E6BA81205553AC000D2D28 /* Bool+Random.swift */; };
 		F7E6BA83205553AC000D2D28 /* Bool+Random.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7E6BA81205553AC000D2D28 /* Bool+Random.swift */; };
 		F7E6BA8620555414000D2D28 /* FloatingPoint+Random.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7E6BA8520555414000D2D28 /* FloatingPoint+Random.swift */; };
@@ -97,7 +95,6 @@
 		F7E6BAC22055D7F2000D2D28 /* FloatingPoint+Random.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7E6BA8520555414000D2D28 /* FloatingPoint+Random.swift */; };
 		F7E6BAC32055D7F2000D2D28 /* String+URLs.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7E6BA54205551C8000D2D28 /* String+URLs.swift */; };
 		F7E6BAC42055D7F2000D2D28 /* String+Digits.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7E6BA55205551C8000D2D28 /* String+Digits.swift */; };
-		F7E6BAC62055D7F2000D2D28 /* String+DecimalSeparator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7E6BA57205551C8000D2D28 /* String+DecimalSeparator.swift */; };
 		F7E6BAC72055D7F2000D2D28 /* Array+NextPrevious.swift in Sources */ = {isa = PBXBuildFile; fileRef = F76F7EDC20544C39007C919A /* Array+NextPrevious.swift */; };
 		F7E6BAC82055D7F2000D2D28 /* Array+RemoveItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = F76F7EDD20544C39007C919A /* Array+RemoveItem.swift */; };
 		F7E6BAC92055D7F2000D2D28 /* Array+Random.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7E6BA8820555461000D2D28 /* Array+Random.swift */; };
@@ -112,7 +109,6 @@
 		F7E6BADF2055D997000D2D28 /* FloatingPoint+Random.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7E6BA8520555414000D2D28 /* FloatingPoint+Random.swift */; };
 		F7E6BAE02055D997000D2D28 /* String+URLs.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7E6BA54205551C8000D2D28 /* String+URLs.swift */; };
 		F7E6BAE12055D997000D2D28 /* String+Digits.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7E6BA55205551C8000D2D28 /* String+Digits.swift */; };
-		F7E6BAE32055D997000D2D28 /* String+DecimalSeparator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7E6BA57205551C8000D2D28 /* String+DecimalSeparator.swift */; };
 		F7E6BAE42055D997000D2D28 /* Array+NextPrevious.swift in Sources */ = {isa = PBXBuildFile; fileRef = F76F7EDC20544C39007C919A /* Array+NextPrevious.swift */; };
 		F7E6BAE52055D997000D2D28 /* Array+RemoveItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = F76F7EDD20544C39007C919A /* Array+RemoveItem.swift */; };
 		F7E6BAE62055D997000D2D28 /* Array+Random.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7E6BA8820555461000D2D28 /* Array+Random.swift */; };
@@ -163,7 +159,6 @@
 		F7E1D137209E6B2800A076B5 /* String+Compare.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Compare.swift"; sourceTree = "<group>"; };
 		F7E6BA54205551C8000D2D28 /* String+URLs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+URLs.swift"; sourceTree = "<group>"; };
 		F7E6BA55205551C8000D2D28 /* String+Digits.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Digits.swift"; sourceTree = "<group>"; };
-		F7E6BA57205551C8000D2D28 /* String+DecimalSeparator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+DecimalSeparator.swift"; sourceTree = "<group>"; };
 		F7E6BA81205553AC000D2D28 /* Bool+Random.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bool+Random.swift"; sourceTree = "<group>"; };
 		F7E6BA8520555414000D2D28 /* FloatingPoint+Random.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FloatingPoint+Random.swift"; sourceTree = "<group>"; };
 		F7E6BA8820555461000D2D28 /* Array+Random.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Array+Random.swift"; sourceTree = "<group>"; };
@@ -356,7 +351,6 @@
 				F7E6BA55205551C8000D2D28 /* String+Digits.swift */,
 				F7A031A82059DEDE0028039D /* String+Attributes.swift */,
 				F7E1D137209E6B2800A076B5 /* String+Compare.swift */,
-				F7E6BA57205551C8000D2D28 /* String+DecimalSeparator.swift */,
 			);
 			path = String;
 			sourceTree = "<group>";
@@ -611,7 +605,6 @@
 				F7E6BA8920555461000D2D28 /* Array+Random.swift in Sources */,
 				F7E6BAFB2055E9D1000D2D28 /* Bool+Integer.swift in Sources */,
 				F7E6BAEB2055E4E2000D2D28 /* Optional+Handle.swift in Sources */,
-				F7E6BA5E205551C9000D2D28 /* String+DecimalSeparator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -649,7 +642,6 @@
 				F7E6BA8A20555461000D2D28 /* Array+Random.swift in Sources */,
 				F7E6BAFE2055E9D1000D2D28 /* Bool+Integer.swift in Sources */,
 				F7E6BAEE2055E4E2000D2D28 /* Optional+Handle.swift in Sources */,
-				F7E6BA5F205551C9000D2D28 /* String+DecimalSeparator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -687,7 +679,6 @@
 				F7E6BAC92055D7F2000D2D28 /* Array+Random.swift in Sources */,
 				F7E6BAFC2055E9D1000D2D28 /* Bool+Integer.swift in Sources */,
 				F7E6BAEC2055E4E2000D2D28 /* Optional+Handle.swift in Sources */,
-				F7E6BAC62055D7F2000D2D28 /* String+DecimalSeparator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -725,7 +716,6 @@
 				F7E6BAE62055D997000D2D28 /* Array+Random.swift in Sources */,
 				F7E6BAFD2055E9D1000D2D28 /* Bool+Integer.swift in Sources */,
 				F7E6BAED2055E4E2000D2D28 /* Optional+Handle.swift in Sources */,
-				F7E6BAE32055D997000D2D28 /* String+DecimalSeparator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
