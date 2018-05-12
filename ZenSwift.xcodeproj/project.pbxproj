@@ -27,6 +27,10 @@
 		F70CD352207198C900560696 /* StateMachineDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = F70CD340207198C900560696 /* StateMachineDataSource.swift */; };
 		F70CD353207198C900560696 /* StateMachineDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = F70CD340207198C900560696 /* StateMachineDataSource.swift */; };
 		F70CD354207198C900560696 /* StateMachineDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = F70CD340207198C900560696 /* StateMachineDataSource.swift */; };
+		F729044D20A783DA007162FF /* BidirectionalCollection+Drop.swift in Sources */ = {isa = PBXBuildFile; fileRef = F729044C20A783DA007162FF /* BidirectionalCollection+Drop.swift */; };
+		F729044E20A783DA007162FF /* BidirectionalCollection+Drop.swift in Sources */ = {isa = PBXBuildFile; fileRef = F729044C20A783DA007162FF /* BidirectionalCollection+Drop.swift */; };
+		F729044F20A783DA007162FF /* BidirectionalCollection+Drop.swift in Sources */ = {isa = PBXBuildFile; fileRef = F729044C20A783DA007162FF /* BidirectionalCollection+Drop.swift */; };
+		F729045020A783DA007162FF /* BidirectionalCollection+Drop.swift in Sources */ = {isa = PBXBuildFile; fileRef = F729044C20A783DA007162FF /* BidirectionalCollection+Drop.swift */; };
 		F76F7ED020544B82007C919A /* ZenSwift.h in Headers */ = {isa = PBXBuildFile; fileRef = F71EFE49205447FE00B49902 /* ZenSwift.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F76F7ED120544B83007C919A /* ZenSwift.h in Headers */ = {isa = PBXBuildFile; fileRef = F71EFE49205447FE00B49902 /* ZenSwift.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F76F7EDE20544C39007C919A /* Array+NextPrevious.swift in Sources */ = {isa = PBXBuildFile; fileRef = F76F7EDC20544C39007C919A /* Array+NextPrevious.swift */; };
@@ -143,6 +147,7 @@
 		F71EFE49205447FE00B49902 /* ZenSwift.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZenSwift.h; sourceTree = "<group>"; };
 		F71EFE4A205447FE00B49902 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F71EFE562054485A00B49902 /* ZenSwift_macOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ZenSwift_macOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F729044C20A783DA007162FF /* BidirectionalCollection+Drop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BidirectionalCollection+Drop.swift"; sourceTree = "<group>"; };
 		F76F7EDC20544C39007C919A /* Array+NextPrevious.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Array+NextPrevious.swift"; sourceTree = "<group>"; };
 		F76F7EDD20544C39007C919A /* Array+RemoveItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Array+RemoveItem.swift"; sourceTree = "<group>"; };
 		F794DA162054A50100DB71A4 /* Sequence+ReduceBoolean.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Sequence+ReduceBoolean.swift"; sourceTree = "<group>"; };
@@ -212,10 +217,11 @@
 				F7E6BA8E20555483000D2D28 /* Int */,
 				F794DA192054A50200DB71A4 /* FloatingPoint */,
 				F7E6BA53205551C8000D2D28 /* String */,
+				F7C47F95206AE8BF002BF7CF /* URL */,
 				F76F7EDB20544C39007C919A /* Array */,
 				F794DA172054A50100DB71A4 /* Collection */,
+				F729045120A783E3007162FF /* BidirectionalCollection */,
 				F794DA152054A50100DB71A4 /* Sequence */,
-				F7C47F95206AE8BF002BF7CF /* URL */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -274,6 +280,14 @@
 				F76F7ECF2054499F007C919A /* SupportingFiles */,
 			);
 			path = ZenSwift;
+			sourceTree = "<group>";
+		};
+		F729045120A783E3007162FF /* BidirectionalCollection */ = {
+			isa = PBXGroup;
+			children = (
+				F729044C20A783DA007162FF /* BidirectionalCollection+Drop.swift */,
+			);
+			path = BidirectionalCollection;
 			sourceTree = "<group>";
 		};
 		F76F7ECF2054499F007C919A /* SupportingFiles */ = {
@@ -585,6 +599,7 @@
 				F7E6BA8620555414000D2D28 /* FloatingPoint+Random.swift in Sources */,
 				F7E1D138209E6B2800A076B5 /* String+Compare.swift in Sources */,
 				F7A0319F2059DE380028039D /* String+Style.swift in Sources */,
+				F729044D20A783DA007162FF /* BidirectionalCollection+Drop.swift in Sources */,
 				F794DA1E2054A50200DB71A4 /* Collection+SafeSubscript.swift in Sources */,
 				F794DA202054A50200DB71A4 /* FloatingPoint+Angles.swift in Sources */,
 				F7E6BA5A205551C9000D2D28 /* String+Digits.swift in Sources */,
@@ -622,6 +637,7 @@
 				F7E6BA8720555414000D2D28 /* FloatingPoint+Random.swift in Sources */,
 				F7E1D13B209E6B2800A076B5 /* String+Compare.swift in Sources */,
 				F7A031A22059DE380028039D /* String+Style.swift in Sources */,
+				F729045020A783DA007162FF /* BidirectionalCollection+Drop.swift in Sources */,
 				F794DA1F2054A50200DB71A4 /* Collection+SafeSubscript.swift in Sources */,
 				F794DA212054A50200DB71A4 /* FloatingPoint+Angles.swift in Sources */,
 				F7E6BA5B205551C9000D2D28 /* String+Digits.swift in Sources */,
@@ -659,6 +675,7 @@
 				F7E6BAC22055D7F2000D2D28 /* FloatingPoint+Random.swift in Sources */,
 				F7E1D139209E6B2800A076B5 /* String+Compare.swift in Sources */,
 				F7A031A02059DE380028039D /* String+Style.swift in Sources */,
+				F729044E20A783DA007162FF /* BidirectionalCollection+Drop.swift in Sources */,
 				F7E6BAC42055D7F2000D2D28 /* String+Digits.swift in Sources */,
 				F7E6BABF2055D7F2000D2D28 /* Int+Random.swift in Sources */,
 				F7E6BABE2055D7F2000D2D28 /* Int+Angles.swift in Sources */,
@@ -696,6 +713,7 @@
 				F7E6BADF2055D997000D2D28 /* FloatingPoint+Random.swift in Sources */,
 				F7E1D13A209E6B2800A076B5 /* String+Compare.swift in Sources */,
 				F7A031A12059DE380028039D /* String+Style.swift in Sources */,
+				F729044F20A783DA007162FF /* BidirectionalCollection+Drop.swift in Sources */,
 				F7E6BAE12055D997000D2D28 /* String+Digits.swift in Sources */,
 				F7E6BADC2055D997000D2D28 /* Int+Random.swift in Sources */,
 				F7E6BADB2055D997000D2D28 /* Int+Angles.swift in Sources */,
