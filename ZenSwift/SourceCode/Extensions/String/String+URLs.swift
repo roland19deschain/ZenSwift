@@ -23,8 +23,8 @@ public extension String {
     
     /// Returns an array of detected urls
     var detectedURLs: [URL] {
-        let type = NSTextCheckingResult.CheckingType.link.rawValue
-        guard let detector = try? NSDataDetector(types: type) else {
+        let checkingType = NSTextCheckingResult.CheckingType.link
+        guard let detector = try? NSDataDetector(types: checkingType.rawValue) else {
             return []
         }
         let range = NSRange(location: 0, length: count)
@@ -33,9 +33,7 @@ public extension String {
                      options: [],
                      range: range)
             .compactMap {
-                return $0.resultType == NSTextCheckingResult.CheckingType.link
-                    ? $0.url
-                    : nil
+                $0.resultType == checkingType ? $0.url : nil
         }
     }
     
