@@ -39,8 +39,20 @@ public extension String {
         }
     }
     
-    /// Enumerates an array of detected urls. Process may be interrupted by
-    /// setting pointer to boolean value (stop flag) to true.
+    /**
+     Enumerates an array of detected urls. Process may be interrupted by
+     setting pointer to boolean value (stop flag) to true.
+     
+     For Example:
+     ```
+     text.detectURLs { url, stop in
+         if url == needle {
+             // stop this loop
+             stop.pointee = true
+         }
+     }
+     ```
+     */
     func detectURLs(handler: @escaping (URL, UnsafeMutablePointer<ObjCBool>) -> Void) {
         let checkingType = NSTextCheckingResult.CheckingType.link
         let range = NSRange(location: 0, length: count)
