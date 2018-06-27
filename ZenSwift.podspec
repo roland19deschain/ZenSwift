@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'ZenSwift'
-  s.version          = '0.1.23'
+  s.version          = '0.1.24'
   s.swift_version    = '4.0'
   s.summary          = 'ZenSwift is a collection of components and Swift stdlib extensions.'
   s.description      = <<-DESC
