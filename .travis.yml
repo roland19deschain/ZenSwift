@@ -1,5 +1,5 @@
 language: SWIFT
-osx_image: xcode9.1
+osx_image: xcode9.4
 
 env:
   global:
