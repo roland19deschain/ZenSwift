@@ -69,6 +69,18 @@
 		F7A031AA2059DEDE0028039D /* String+Attributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7A031A82059DEDE0028039D /* String+Attributes.swift */; };
 		F7A031AB2059DEDE0028039D /* String+Attributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7A031A82059DEDE0028039D /* String+Attributes.swift */; };
 		F7A031AC2059DEDE0028039D /* String+Attributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7A031A82059DEDE0028039D /* String+Attributes.swift */; };
+		F7AF31E320F2CFEC0037801B /* RandomValueProducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7AF31E220F2CFEC0037801B /* RandomValueProducer.swift */; };
+		F7AF31E420F2CFEC0037801B /* RandomValueProducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7AF31E220F2CFEC0037801B /* RandomValueProducer.swift */; };
+		F7AF31E520F2CFEC0037801B /* RandomValueProducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7AF31E220F2CFEC0037801B /* RandomValueProducer.swift */; };
+		F7AF31E620F2CFEC0037801B /* RandomValueProducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7AF31E220F2CFEC0037801B /* RandomValueProducer.swift */; };
+		F7AF31E920F2D23D0037801B /* Range+Random.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7AF31E820F2D23D0037801B /* Range+Random.swift */; };
+		F7AF31EA20F2D23D0037801B /* Range+Random.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7AF31E820F2D23D0037801B /* Range+Random.swift */; };
+		F7AF31EB20F2D23D0037801B /* Range+Random.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7AF31E820F2D23D0037801B /* Range+Random.swift */; };
+		F7AF31EC20F2D23D0037801B /* Range+Random.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7AF31E820F2D23D0037801B /* Range+Random.swift */; };
+		F7AF31EF20F2D2900037801B /* ClosedRange+Random.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7AF31EE20F2D2900037801B /* ClosedRange+Random.swift */; };
+		F7AF31F020F2D2900037801B /* ClosedRange+Random.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7AF31EE20F2D2900037801B /* ClosedRange+Random.swift */; };
+		F7AF31F120F2D2900037801B /* ClosedRange+Random.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7AF31EE20F2D2900037801B /* ClosedRange+Random.swift */; };
+		F7AF31F220F2D2900037801B /* ClosedRange+Random.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7AF31EE20F2D2900037801B /* ClosedRange+Random.swift */; };
 		F7C47F91206AE8BB002BF7CF /* URL+QueryParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7C47F90206AE8BB002BF7CF /* URL+QueryParameters.swift */; };
 		F7C47F92206AE8BB002BF7CF /* URL+QueryParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7C47F90206AE8BB002BF7CF /* URL+QueryParameters.swift */; };
 		F7C47F93206AE8BB002BF7CF /* URL+QueryParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7C47F90206AE8BB002BF7CF /* URL+QueryParameters.swift */; };
@@ -160,6 +172,9 @@
 		F7A0319E2059DE380028039D /* String+Style.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Style.swift"; sourceTree = "<group>"; };
 		F7A031A32059DE5F0028039D /* String+Trim.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Trim.swift"; sourceTree = "<group>"; };
 		F7A031A82059DEDE0028039D /* String+Attributes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Attributes.swift"; sourceTree = "<group>"; };
+		F7AF31E220F2CFEC0037801B /* RandomValueProducer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomValueProducer.swift; sourceTree = "<group>"; };
+		F7AF31E820F2D23D0037801B /* Range+Random.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Range+Random.swift"; sourceTree = "<group>"; };
+		F7AF31EE20F2D2900037801B /* ClosedRange+Random.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ClosedRange+Random.swift"; sourceTree = "<group>"; };
 		F7C47F90206AE8BB002BF7CF /* URL+QueryParameters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "URL+QueryParameters.swift"; sourceTree = "<group>"; };
 		F7E1D137209E6B2800A076B5 /* String+Compare.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Compare.swift"; sourceTree = "<group>"; };
 		F7E6BA54205551C8000D2D28 /* String+URLs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+URLs.swift"; sourceTree = "<group>"; };
@@ -222,6 +237,8 @@
 				F794DA172054A50100DB71A4 /* Collection */,
 				F729045120A783E3007162FF /* BidirectionalCollection */,
 				F794DA152054A50100DB71A4 /* Sequence */,
+				F7AF31ED20F2D2440037801B /* Range */,
+				F7AF31F320F2D2960037801B /* ClosedRange */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -250,6 +267,7 @@
 			children = (
 				F70CD33C207198C900560696 /* StateMachine */,
 				F70CD33A207198C900560696 /* WeakWrapper */,
+				F7AF31E720F2D1B20037801B /* RandomValueProducer */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -343,6 +361,30 @@
 				F7E6BA8520555414000D2D28 /* FloatingPoint+Random.swift */,
 			);
 			path = FloatingPoint;
+			sourceTree = "<group>";
+		};
+		F7AF31E720F2D1B20037801B /* RandomValueProducer */ = {
+			isa = PBXGroup;
+			children = (
+				F7AF31E220F2CFEC0037801B /* RandomValueProducer.swift */,
+			);
+			path = RandomValueProducer;
+			sourceTree = "<group>";
+		};
+		F7AF31ED20F2D2440037801B /* Range */ = {
+			isa = PBXGroup;
+			children = (
+				F7AF31E820F2D23D0037801B /* Range+Random.swift */,
+			);
+			path = Range;
+			sourceTree = "<group>";
+		};
+		F7AF31F320F2D2960037801B /* ClosedRange */ = {
+			isa = PBXGroup;
+			children = (
+				F7AF31EE20F2D2900037801B /* ClosedRange+Random.swift */,
+			);
+			path = ClosedRange;
 			sourceTree = "<group>";
 		};
 		F7C47F95206AE8BF002BF7CF /* URL */ = {
@@ -589,6 +631,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F7AF31EF20F2D2900037801B /* ClosedRange+Random.swift in Sources */,
 				F76F7EE020544C39007C919A /* Array+RemoveItem.swift in Sources */,
 				F76F7EDE20544C39007C919A /* Array+NextPrevious.swift in Sources */,
 				F7C47F91206AE8BB002BF7CF /* URL+QueryParameters.swift in Sources */,
@@ -604,6 +647,7 @@
 				F794DA202054A50200DB71A4 /* FloatingPoint+Angles.swift in Sources */,
 				F7E6BA5A205551C9000D2D28 /* String+Digits.swift in Sources */,
 				F794DA222054A50200DB71A4 /* FloatingPoint+Percentages.swift in Sources */,
+				F7AF31E920F2D23D0037801B /* Range+Random.swift in Sources */,
 				F7E6BA8C20555479000D2D28 /* Int+Random.swift in Sources */,
 				F7E6BAF62055E8F6000D2D28 /* Bool+Toggle.swift in Sources */,
 				F7A031A92059DEDE0028039D /* String+Attributes.swift in Sources */,
@@ -611,6 +655,7 @@
 				F70CD345207198C900560696 /* StateMachineDelegate.swift in Sources */,
 				F794DA1C2054A50200DB71A4 /* Sequence+ReduceBoolean.swift in Sources */,
 				F7A031952059DDF90028039D /* String+Localization.swift in Sources */,
+				F7AF31E320F2CFEC0037801B /* RandomValueProducer.swift in Sources */,
 				F70CD349207198C900560696 /* StateMachine.swift in Sources */,
 				F7E6BA902055549A000D2D28 /* Int+Angles.swift in Sources */,
 				F7A0319A2059DE180028039D /* String+Introspection.swift in Sources */,
@@ -627,6 +672,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F7AF31F220F2D2900037801B /* ClosedRange+Random.swift in Sources */,
 				F76F7EE120544C39007C919A /* Array+RemoveItem.swift in Sources */,
 				F76F7EDF20544C39007C919A /* Array+NextPrevious.swift in Sources */,
 				F7C47F94206AE8BB002BF7CF /* URL+QueryParameters.swift in Sources */,
@@ -642,6 +688,7 @@
 				F794DA212054A50200DB71A4 /* FloatingPoint+Angles.swift in Sources */,
 				F7E6BA5B205551C9000D2D28 /* String+Digits.swift in Sources */,
 				F794DA232054A50200DB71A4 /* FloatingPoint+Percentages.swift in Sources */,
+				F7AF31EC20F2D23D0037801B /* Range+Random.swift in Sources */,
 				F7E6BA8D20555479000D2D28 /* Int+Random.swift in Sources */,
 				F7E6BAF92055E8F6000D2D28 /* Bool+Toggle.swift in Sources */,
 				F7A031AC2059DEDE0028039D /* String+Attributes.swift in Sources */,
@@ -649,6 +696,7 @@
 				F70CD348207198C900560696 /* StateMachineDelegate.swift in Sources */,
 				F794DA1D2054A50200DB71A4 /* Sequence+ReduceBoolean.swift in Sources */,
 				F7A031982059DDF90028039D /* String+Localization.swift in Sources */,
+				F7AF31E620F2CFEC0037801B /* RandomValueProducer.swift in Sources */,
 				F70CD34C207198C900560696 /* StateMachine.swift in Sources */,
 				F7E6BA912055549A000D2D28 /* Int+Angles.swift in Sources */,
 				F7A0319D2059DE180028039D /* String+Introspection.swift in Sources */,
@@ -665,6 +713,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F7AF31F020F2D2900037801B /* ClosedRange+Random.swift in Sources */,
 				F7E6BAC02055D7F2000D2D28 /* FloatingPoint+Angles.swift in Sources */,
 				F7E6BAC12055D7F2000D2D28 /* FloatingPoint+Percentages.swift in Sources */,
 				F7C47F92206AE8BB002BF7CF /* URL+QueryParameters.swift in Sources */,
@@ -680,6 +729,7 @@
 				F7E6BABF2055D7F2000D2D28 /* Int+Random.swift in Sources */,
 				F7E6BABE2055D7F2000D2D28 /* Int+Angles.swift in Sources */,
 				F7E6BAC32055D7F2000D2D28 /* String+URLs.swift in Sources */,
+				F7AF31EA20F2D23D0037801B /* Range+Random.swift in Sources */,
 				F7E6BAC82055D7F2000D2D28 /* Array+RemoveItem.swift in Sources */,
 				F7E6BAF72055E8F6000D2D28 /* Bool+Toggle.swift in Sources */,
 				F7A031AA2059DEDE0028039D /* String+Attributes.swift in Sources */,
@@ -687,6 +737,7 @@
 				F70CD346207198C900560696 /* StateMachineDelegate.swift in Sources */,
 				F7E6BAC72055D7F2000D2D28 /* Array+NextPrevious.swift in Sources */,
 				F7A031962059DDF90028039D /* String+Localization.swift in Sources */,
+				F7AF31E420F2CFEC0037801B /* RandomValueProducer.swift in Sources */,
 				F70CD34A207198C900560696 /* StateMachine.swift in Sources */,
 				F7E6BACA2055D7F2000D2D28 /* Collection+SafeSubscript.swift in Sources */,
 				F7A0319B2059DE180028039D /* String+Introspection.swift in Sources */,
@@ -703,6 +754,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F7AF31F120F2D2900037801B /* ClosedRange+Random.swift in Sources */,
 				F7E6BADD2055D997000D2D28 /* FloatingPoint+Angles.swift in Sources */,
 				F7E6BADE2055D997000D2D28 /* FloatingPoint+Percentages.swift in Sources */,
 				F7C47F93206AE8BB002BF7CF /* URL+QueryParameters.swift in Sources */,
@@ -718,6 +770,7 @@
 				F7E6BADC2055D997000D2D28 /* Int+Random.swift in Sources */,
 				F7E6BADB2055D997000D2D28 /* Int+Angles.swift in Sources */,
 				F7E6BAE02055D997000D2D28 /* String+URLs.swift in Sources */,
+				F7AF31EB20F2D23D0037801B /* Range+Random.swift in Sources */,
 				F7E6BAE52055D997000D2D28 /* Array+RemoveItem.swift in Sources */,
 				F7E6BAF82055E8F6000D2D28 /* Bool+Toggle.swift in Sources */,
 				F7A031AB2059DEDE0028039D /* String+Attributes.swift in Sources */,
@@ -725,6 +778,7 @@
 				F70CD347207198C900560696 /* StateMachineDelegate.swift in Sources */,
 				F7E6BAE42055D997000D2D28 /* Array+NextPrevious.swift in Sources */,
 				F7A031972059DDF90028039D /* String+Localization.swift in Sources */,
+				F7AF31E520F2CFEC0037801B /* RandomValueProducer.swift in Sources */,
 				F70CD34B207198C900560696 /* StateMachine.swift in Sources */,
 				F7E6BAE72055D997000D2D28 /* Collection+SafeSubscript.swift in Sources */,
 				F7A0319C2059DE180028039D /* String+Introspection.swift in Sources */,
