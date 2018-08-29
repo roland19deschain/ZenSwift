@@ -33,4 +33,15 @@ public extension String {
                                  options: .regularExpression) == nil
     }
     
+    /// Returns a boolean value indicating whether a string begins
+    /// with whitespace or new line.
+    var isBeginWithWhitespaceOrNewLine: Bool {
+        guard let first = unicodeScalars.first else {
+            return false
+        }
+        return CharacterSet
+            .whitespacesAndNewlines
+            .contains(first)
+    }
+    
 }
