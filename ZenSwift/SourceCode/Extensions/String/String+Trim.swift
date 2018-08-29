@@ -42,7 +42,7 @@ public extension String {
     
     /// Returns a new string made by removing whitespaces and new lines
     /// from the start of the string.
-    var trimedHead: String {
+    var trimmedHead: String {
         return replacingOccurrences(
             of: "^\\s+",
             with: "",
