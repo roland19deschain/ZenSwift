@@ -3,9 +3,9 @@ import Foundation
 public extension Collection {
     
     /// Returns a copy of 'self' with its elements shuffled.
-    var shuffle: [Iterator.Element] {
+    var shuffled: [Iterator.Element] {
         var list = Array(self)
-        list.shuffleInPlace()
+        list.shuffle()
         return list
     }
     
@@ -14,7 +14,7 @@ public extension Collection {
 public extension MutableCollection where Index == Int {
     
     /// Shuffle the elements of 'self' in-place.
-    mutating func shuffleInPlace() {
+    mutating func shuffle() {
         guard count > 1 else {
             return
         }
