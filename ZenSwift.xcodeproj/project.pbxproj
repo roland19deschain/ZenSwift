@@ -31,6 +31,10 @@
 		F729044E20A783DA007162FF /* BidirectionalCollection+Drop.swift in Sources */ = {isa = PBXBuildFile; fileRef = F729044C20A783DA007162FF /* BidirectionalCollection+Drop.swift */; };
 		F729044F20A783DA007162FF /* BidirectionalCollection+Drop.swift in Sources */ = {isa = PBXBuildFile; fileRef = F729044C20A783DA007162FF /* BidirectionalCollection+Drop.swift */; };
 		F729045020A783DA007162FF /* BidirectionalCollection+Drop.swift in Sources */ = {isa = PBXBuildFile; fileRef = F729044C20A783DA007162FF /* BidirectionalCollection+Drop.swift */; };
+		F76BDCBB2143E4DF00DD0B46 /* Array+RemoveDuplicates.swift in Sources */ = {isa = PBXBuildFile; fileRef = F76BDCBA2143E4DF00DD0B46 /* Array+RemoveDuplicates.swift */; };
+		F76BDCBC2143E4DF00DD0B46 /* Array+RemoveDuplicates.swift in Sources */ = {isa = PBXBuildFile; fileRef = F76BDCBA2143E4DF00DD0B46 /* Array+RemoveDuplicates.swift */; };
+		F76BDCBD2143E4DF00DD0B46 /* Array+RemoveDuplicates.swift in Sources */ = {isa = PBXBuildFile; fileRef = F76BDCBA2143E4DF00DD0B46 /* Array+RemoveDuplicates.swift */; };
+		F76BDCBE2143E4DF00DD0B46 /* Array+RemoveDuplicates.swift in Sources */ = {isa = PBXBuildFile; fileRef = F76BDCBA2143E4DF00DD0B46 /* Array+RemoveDuplicates.swift */; };
 		F76F7ED020544B82007C919A /* ZenSwift.h in Headers */ = {isa = PBXBuildFile; fileRef = F71EFE49205447FE00B49902 /* ZenSwift.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F76F7ED120544B83007C919A /* ZenSwift.h in Headers */ = {isa = PBXBuildFile; fileRef = F71EFE49205447FE00B49902 /* ZenSwift.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F76F7EDE20544C39007C919A /* Array+NextPrevious.swift in Sources */ = {isa = PBXBuildFile; fileRef = F76F7EDC20544C39007C919A /* Array+NextPrevious.swift */; };
@@ -168,6 +172,7 @@
 		F71EFE4A205447FE00B49902 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F71EFE562054485A00B49902 /* ZenSwift_macOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ZenSwift_macOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F729044C20A783DA007162FF /* BidirectionalCollection+Drop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BidirectionalCollection+Drop.swift"; sourceTree = "<group>"; };
+		F76BDCBA2143E4DF00DD0B46 /* Array+RemoveDuplicates.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Array+RemoveDuplicates.swift"; sourceTree = "<group>"; };
 		F76F7EDC20544C39007C919A /* Array+NextPrevious.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Array+NextPrevious.swift"; sourceTree = "<group>"; };
 		F76F7EDD20544C39007C919A /* Array+RemoveItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Array+RemoveItem.swift"; sourceTree = "<group>"; };
 		F794DA162054A50100DB71A4 /* Sequence+ReduceBoolean.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Sequence+ReduceBoolean.swift"; sourceTree = "<group>"; };
@@ -344,6 +349,7 @@
 				F76F7EDC20544C39007C919A /* Array+NextPrevious.swift */,
 				F76F7EDD20544C39007C919A /* Array+RemoveItem.swift */,
 				F7E6BA8820555461000D2D28 /* Array+Random.swift */,
+				F76BDCBA2143E4DF00DD0B46 /* Array+RemoveDuplicates.swift */,
 			);
 			path = Array;
 			sourceTree = "<group>";
@@ -664,6 +670,7 @@
 				F76F7EDE20544C39007C919A /* Array+NextPrevious.swift in Sources */,
 				F7C47F91206AE8BB002BF7CF /* URL+QueryParameters.swift in Sources */,
 				F70CD341207198C900560696 /* Weak.swift in Sources */,
+				F76BDCBB2143E4DF00DD0B46 /* Array+RemoveDuplicates.swift in Sources */,
 				F7A031A42059DE5F0028039D /* String+Trim.swift in Sources */,
 				F7E6BA82205553AC000D2D28 /* Bool+Random.swift in Sources */,
 				F70CD351207198C900560696 /* StateMachineDataSource.swift in Sources */,
@@ -707,6 +714,7 @@
 				F76F7EDF20544C39007C919A /* Array+NextPrevious.swift in Sources */,
 				F7C47F94206AE8BB002BF7CF /* URL+QueryParameters.swift in Sources */,
 				F70CD344207198C900560696 /* Weak.swift in Sources */,
+				F76BDCBE2143E4DF00DD0B46 /* Array+RemoveDuplicates.swift in Sources */,
 				F7A031A72059DE5F0028039D /* String+Trim.swift in Sources */,
 				F7E6BA83205553AC000D2D28 /* Bool+Random.swift in Sources */,
 				F70CD354207198C900560696 /* StateMachineDataSource.swift in Sources */,
@@ -750,6 +758,7 @@
 				F7E6BAC12055D7F2000D2D28 /* FloatingPoint+Percentages.swift in Sources */,
 				F7C47F92206AE8BB002BF7CF /* URL+QueryParameters.swift in Sources */,
 				F70CD342207198C900560696 /* Weak.swift in Sources */,
+				F76BDCBC2143E4DF00DD0B46 /* Array+RemoveDuplicates.swift in Sources */,
 				F7A031A52059DE5F0028039D /* String+Trim.swift in Sources */,
 				F7E6BABD2055D7F2000D2D28 /* Bool+Random.swift in Sources */,
 				F70CD352207198C900560696 /* StateMachineDataSource.swift in Sources */,
@@ -793,6 +802,7 @@
 				F7E6BADE2055D997000D2D28 /* FloatingPoint+Percentages.swift in Sources */,
 				F7C47F93206AE8BB002BF7CF /* URL+QueryParameters.swift in Sources */,
 				F70CD343207198C900560696 /* Weak.swift in Sources */,
+				F76BDCBD2143E4DF00DD0B46 /* Array+RemoveDuplicates.swift in Sources */,
 				F7A031A62059DE5F0028039D /* String+Trim.swift in Sources */,
 				F7E6BADA2055D997000D2D28 /* Bool+Random.swift in Sources */,
 				F70CD353207198C900560696 /* StateMachineDataSource.swift in Sources */,
