@@ -111,10 +111,6 @@
 		F7E6BAEC2055E4E2000D2D28 /* Optional+Handle.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7E6BAEA2055E4E2000D2D28 /* Optional+Handle.swift */; };
 		F7E6BAED2055E4E2000D2D28 /* Optional+Handle.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7E6BAEA2055E4E2000D2D28 /* Optional+Handle.swift */; };
 		F7E6BAEE2055E4E2000D2D28 /* Optional+Handle.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7E6BAEA2055E4E2000D2D28 /* Optional+Handle.swift */; };
-		F7E6BAF62055E8F6000D2D28 /* Bool+Toggle.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7E6BAF52055E8F6000D2D28 /* Bool+Toggle.swift */; };
-		F7E6BAF72055E8F6000D2D28 /* Bool+Toggle.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7E6BAF52055E8F6000D2D28 /* Bool+Toggle.swift */; };
-		F7E6BAF82055E8F6000D2D28 /* Bool+Toggle.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7E6BAF52055E8F6000D2D28 /* Bool+Toggle.swift */; };
-		F7E6BAF92055E8F6000D2D28 /* Bool+Toggle.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7E6BAF52055E8F6000D2D28 /* Bool+Toggle.swift */; };
 		F7E6BAFB2055E9D1000D2D28 /* Bool+Integer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7E6BAFA2055E9D1000D2D28 /* Bool+Integer.swift */; };
 		F7E6BAFC2055E9D1000D2D28 /* Bool+Integer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7E6BAFA2055E9D1000D2D28 /* Bool+Integer.swift */; };
 		F7E6BAFD2055E9D1000D2D28 /* Bool+Integer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7E6BAFA2055E9D1000D2D28 /* Bool+Integer.swift */; };
@@ -153,7 +149,6 @@
 		F7E6BAB52055D7C2000D2D28 /* ZenSwift_tvOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ZenSwift_tvOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7E6BAD22055D976000D2D28 /* ZenSwift_watchOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ZenSwift_watchOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7E6BAEA2055E4E2000D2D28 /* Optional+Handle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Optional+Handle.swift"; sourceTree = "<group>"; };
-		F7E6BAF52055E8F6000D2D28 /* Bool+Toggle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bool+Toggle.swift"; sourceTree = "<group>"; };
 		F7E6BAFA2055E9D1000D2D28 /* Bool+Integer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bool+Integer.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -350,7 +345,6 @@
 		F7E6BA84205553B1000D2D28 /* Bool */ = {
 			isa = PBXGroup;
 			children = (
-				F7E6BAF52055E8F6000D2D28 /* Bool+Toggle.swift */,
 				F7E6BAFA2055E9D1000D2D28 /* Bool+Integer.swift */,
 			);
 			path = Bool;
@@ -580,7 +574,6 @@
 				F794DA202054A50200DB71A4 /* FloatingPoint+Angles.swift in Sources */,
 				F7E6BA5A205551C9000D2D28 /* String+Digits.swift in Sources */,
 				F794DA222054A50200DB71A4 /* FloatingPoint+Percentages.swift in Sources */,
-				F7E6BAF62055E8F6000D2D28 /* Bool+Toggle.swift in Sources */,
 				F7A031A92059DEDE0028039D /* String+Attributes.swift in Sources */,
 				F70CD345207198C900560696 /* StateMachineDelegate.swift in Sources */,
 				F794DA1C2054A50200DB71A4 /* Sequence+ReduceBoolean.swift in Sources */,
@@ -614,7 +607,6 @@
 				F794DA212054A50200DB71A4 /* FloatingPoint+Angles.swift in Sources */,
 				F7E6BA5B205551C9000D2D28 /* String+Digits.swift in Sources */,
 				F794DA232054A50200DB71A4 /* FloatingPoint+Percentages.swift in Sources */,
-				F7E6BAF92055E8F6000D2D28 /* Bool+Toggle.swift in Sources */,
 				F7A031AC2059DEDE0028039D /* String+Attributes.swift in Sources */,
 				F70CD348207198C900560696 /* StateMachineDelegate.swift in Sources */,
 				F794DA1D2054A50200DB71A4 /* Sequence+ReduceBoolean.swift in Sources */,
@@ -648,7 +640,6 @@
 				F7E6BABE2055D7F2000D2D28 /* Int+Angles.swift in Sources */,
 				F7E6BAC32055D7F2000D2D28 /* String+URLs.swift in Sources */,
 				F7E6BAC82055D7F2000D2D28 /* Array+RemoveItem.swift in Sources */,
-				F7E6BAF72055E8F6000D2D28 /* Bool+Toggle.swift in Sources */,
 				F7A031AA2059DEDE0028039D /* String+Attributes.swift in Sources */,
 				F70CD346207198C900560696 /* StateMachineDelegate.swift in Sources */,
 				F7E6BAC72055D7F2000D2D28 /* Array+NextPrevious.swift in Sources */,
@@ -682,7 +673,6 @@
 				F7E6BADB2055D997000D2D28 /* Int+Angles.swift in Sources */,
 				F7E6BAE02055D997000D2D28 /* String+URLs.swift in Sources */,
 				F7E6BAE52055D997000D2D28 /* Array+RemoveItem.swift in Sources */,
-				F7E6BAF82055E8F6000D2D28 /* Bool+Toggle.swift in Sources */,
 				F7A031AB2059DEDE0028039D /* String+Attributes.swift in Sources */,
 				F70CD347207198C900560696 /* StateMachineDelegate.swift in Sources */,
 				F7E6BAE42055D997000D2D28 /* Array+NextPrevious.swift in Sources */,
