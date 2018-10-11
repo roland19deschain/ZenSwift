@@ -85,6 +85,10 @@
 		F7C47F92206AE8BB002BF7CF /* URL+QueryParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7C47F90206AE8BB002BF7CF /* URL+QueryParameters.swift */; };
 		F7C47F93206AE8BB002BF7CF /* URL+QueryParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7C47F90206AE8BB002BF7CF /* URL+QueryParameters.swift */; };
 		F7C47F94206AE8BB002BF7CF /* URL+QueryParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7C47F90206AE8BB002BF7CF /* URL+QueryParameters.swift */; };
+		F7D701DE216FFCC200FF9EAC /* String+Ranges.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7D701DD216FFCC200FF9EAC /* String+Ranges.swift */; };
+		F7D701DF216FFCC200FF9EAC /* String+Ranges.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7D701DD216FFCC200FF9EAC /* String+Ranges.swift */; };
+		F7D701E0216FFCC200FF9EAC /* String+Ranges.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7D701DD216FFCC200FF9EAC /* String+Ranges.swift */; };
+		F7D701E1216FFCC200FF9EAC /* String+Ranges.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7D701DD216FFCC200FF9EAC /* String+Ranges.swift */; };
 		F7E1D138209E6B2800A076B5 /* String+Compare.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7E1D137209E6B2800A076B5 /* String+Compare.swift */; };
 		F7E1D139209E6B2800A076B5 /* String+Compare.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7E1D137209E6B2800A076B5 /* String+Compare.swift */; };
 		F7E1D13A209E6B2800A076B5 /* String+Compare.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7E1D137209E6B2800A076B5 /* String+Compare.swift */; };
@@ -152,6 +156,7 @@
 		F7A031A32059DE5F0028039D /* String+Trim.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Trim.swift"; sourceTree = "<group>"; };
 		F7A031A82059DEDE0028039D /* String+Attributes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Attributes.swift"; sourceTree = "<group>"; };
 		F7C47F90206AE8BB002BF7CF /* URL+QueryParameters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "URL+QueryParameters.swift"; sourceTree = "<group>"; };
+		F7D701DD216FFCC200FF9EAC /* String+Ranges.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Ranges.swift"; sourceTree = "<group>"; };
 		F7E1D137209E6B2800A076B5 /* String+Compare.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Compare.swift"; sourceTree = "<group>"; };
 		F7E6BA54205551C8000D2D28 /* String+URLs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+URLs.swift"; sourceTree = "<group>"; };
 		F7E6BA55205551C8000D2D28 /* String+Digits.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Digits.swift"; sourceTree = "<group>"; };
@@ -341,6 +346,7 @@
 			children = (
 				F7E6BA54205551C8000D2D28 /* String+URLs.swift */,
 				F7A0318F2059DDCE0028039D /* String+Lines.swift */,
+				F7D701DD216FFCC200FF9EAC /* String+Ranges.swift */,
 				F7A031942059DDF90028039D /* String+Localization.swift */,
 				F7A031992059DE180028039D /* String+Introspection.swift */,
 				F7A0319E2059DE380028039D /* String+Style.swift */,
@@ -584,6 +590,7 @@
 				F7A0319F2059DE380028039D /* String+Style.swift in Sources */,
 				F729044D20A783DA007162FF /* BidirectionalCollection+Drop.swift in Sources */,
 				F794DA1E2054A50200DB71A4 /* Collection+SafeSubscript.swift in Sources */,
+				F7D701DE216FFCC200FF9EAC /* String+Ranges.swift in Sources */,
 				F728579A21697C1000C30D93 /* String+Convenience.swift in Sources */,
 				F794DA202054A50200DB71A4 /* FloatingPoint+Angles.swift in Sources */,
 				F7E6BA5A205551C9000D2D28 /* String+Digits.swift in Sources */,
@@ -619,6 +626,7 @@
 				F7A031A22059DE380028039D /* String+Style.swift in Sources */,
 				F729045020A783DA007162FF /* BidirectionalCollection+Drop.swift in Sources */,
 				F794DA1F2054A50200DB71A4 /* Collection+SafeSubscript.swift in Sources */,
+				F7D701E1216FFCC200FF9EAC /* String+Ranges.swift in Sources */,
 				F728579D21697C1000C30D93 /* String+Convenience.swift in Sources */,
 				F794DA212054A50200DB71A4 /* FloatingPoint+Angles.swift in Sources */,
 				F7E6BA5B205551C9000D2D28 /* String+Digits.swift in Sources */,
@@ -654,6 +662,7 @@
 				F7A031A02059DE380028039D /* String+Style.swift in Sources */,
 				F729044E20A783DA007162FF /* BidirectionalCollection+Drop.swift in Sources */,
 				F7E6BAC42055D7F2000D2D28 /* String+Digits.swift in Sources */,
+				F7D701DF216FFCC200FF9EAC /* String+Ranges.swift in Sources */,
 				F728579B21697C1000C30D93 /* String+Convenience.swift in Sources */,
 				F7E6BABE2055D7F2000D2D28 /* Int+Angles.swift in Sources */,
 				F7E6BAC32055D7F2000D2D28 /* String+URLs.swift in Sources */,
@@ -689,6 +698,7 @@
 				F7A031A12059DE380028039D /* String+Style.swift in Sources */,
 				F729044F20A783DA007162FF /* BidirectionalCollection+Drop.swift in Sources */,
 				F7E6BAE12055D997000D2D28 /* String+Digits.swift in Sources */,
+				F7D701E0216FFCC200FF9EAC /* String+Ranges.swift in Sources */,
 				F728579C21697C1000C30D93 /* String+Convenience.swift in Sources */,
 				F7E6BADB2055D997000D2D28 /* Int+Angles.swift in Sources */,
 				F7E6BAE02055D997000D2D28 /* String+URLs.swift in Sources */,
