@@ -44,4 +44,9 @@ public extension String {
             .contains(first)
     }
     
+    /// Returns a boolean value indicating whether a string contains emoji.
+    var containsEmoji: Bool {
+        return unicodeScalars.first { $0.isEmoji } != nil
+    }
+    
 }

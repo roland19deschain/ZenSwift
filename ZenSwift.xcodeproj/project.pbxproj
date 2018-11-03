@@ -81,6 +81,10 @@
 		F7A031AA2059DEDE0028039D /* String+Attributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7A031A82059DEDE0028039D /* String+Attributes.swift */; };
 		F7A031AB2059DEDE0028039D /* String+Attributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7A031A82059DEDE0028039D /* String+Attributes.swift */; };
 		F7A031AC2059DEDE0028039D /* String+Attributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7A031A82059DEDE0028039D /* String+Attributes.swift */; };
+		F7AFF7D5218E1FFA00A7D244 /* UnicodeScalar+Emoji.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7AFF7D4218E1FFA00A7D244 /* UnicodeScalar+Emoji.swift */; };
+		F7AFF7D6218E1FFA00A7D244 /* UnicodeScalar+Emoji.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7AFF7D4218E1FFA00A7D244 /* UnicodeScalar+Emoji.swift */; };
+		F7AFF7D7218E1FFA00A7D244 /* UnicodeScalar+Emoji.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7AFF7D4218E1FFA00A7D244 /* UnicodeScalar+Emoji.swift */; };
+		F7AFF7D8218E1FFA00A7D244 /* UnicodeScalar+Emoji.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7AFF7D4218E1FFA00A7D244 /* UnicodeScalar+Emoji.swift */; };
 		F7C47F91206AE8BB002BF7CF /* URL+QueryParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7C47F90206AE8BB002BF7CF /* URL+QueryParameters.swift */; };
 		F7C47F92206AE8BB002BF7CF /* URL+QueryParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7C47F90206AE8BB002BF7CF /* URL+QueryParameters.swift */; };
 		F7C47F93206AE8BB002BF7CF /* URL+QueryParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7C47F90206AE8BB002BF7CF /* URL+QueryParameters.swift */; };
@@ -155,6 +159,7 @@
 		F7A0319E2059DE380028039D /* String+Style.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Style.swift"; sourceTree = "<group>"; };
 		F7A031A32059DE5F0028039D /* String+Trim.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Trim.swift"; sourceTree = "<group>"; };
 		F7A031A82059DEDE0028039D /* String+Attributes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Attributes.swift"; sourceTree = "<group>"; };
+		F7AFF7D4218E1FFA00A7D244 /* UnicodeScalar+Emoji.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UnicodeScalar+Emoji.swift"; sourceTree = "<group>"; };
 		F7C47F90206AE8BB002BF7CF /* URL+QueryParameters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "URL+QueryParameters.swift"; sourceTree = "<group>"; };
 		F7D701DD216FFCC200FF9EAC /* String+Ranges.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Ranges.swift"; sourceTree = "<group>"; };
 		F7E1D137209E6B2800A076B5 /* String+Compare.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Compare.swift"; sourceTree = "<group>"; };
@@ -206,6 +211,7 @@
 				F7E6BA84205553B1000D2D28 /* Bool */,
 				F7E6BA8E20555483000D2D28 /* Int */,
 				F794DA192054A50200DB71A4 /* FloatingPoint */,
+				F7AFF7D9218E1FFF00A7D244 /* UnicodeScalar */,
 				F7E6BA53205551C8000D2D28 /* String */,
 				F7C47F95206AE8BF002BF7CF /* URL */,
 				F76F7EDB20544C39007C919A /* Array */,
@@ -331,6 +337,14 @@
 				F794DA1B2054A50200DB71A4 /* FloatingPoint+Percentages.swift */,
 			);
 			path = FloatingPoint;
+			sourceTree = "<group>";
+		};
+		F7AFF7D9218E1FFF00A7D244 /* UnicodeScalar */ = {
+			isa = PBXGroup;
+			children = (
+				F7AFF7D4218E1FFA00A7D244 /* UnicodeScalar+Emoji.swift */,
+			);
+			path = UnicodeScalar;
 			sourceTree = "<group>";
 		};
 		F7C47F95206AE8BF002BF7CF /* URL */ = {
@@ -580,6 +594,7 @@
 			files = (
 				F76F7EE020544C39007C919A /* Array+RemoveItem.swift in Sources */,
 				F76F7EDE20544C39007C919A /* Array+NextPrevious.swift in Sources */,
+				F7AFF7D5218E1FFA00A7D244 /* UnicodeScalar+Emoji.swift in Sources */,
 				F7C47F91206AE8BB002BF7CF /* URL+QueryParameters.swift in Sources */,
 				F70CD341207198C900560696 /* Weak.swift in Sources */,
 				F728579F21697D2B00C30D93 /* Optional+String.swift in Sources */,
@@ -616,6 +631,7 @@
 			files = (
 				F76F7EE120544C39007C919A /* Array+RemoveItem.swift in Sources */,
 				F76F7EDF20544C39007C919A /* Array+NextPrevious.swift in Sources */,
+				F7AFF7D8218E1FFA00A7D244 /* UnicodeScalar+Emoji.swift in Sources */,
 				F7C47F94206AE8BB002BF7CF /* URL+QueryParameters.swift in Sources */,
 				F70CD344207198C900560696 /* Weak.swift in Sources */,
 				F72857A221697D2B00C30D93 /* Optional+String.swift in Sources */,
@@ -652,6 +668,7 @@
 			files = (
 				F7E6BAC02055D7F2000D2D28 /* FloatingPoint+Angles.swift in Sources */,
 				F7E6BAC12055D7F2000D2D28 /* FloatingPoint+Percentages.swift in Sources */,
+				F7AFF7D6218E1FFA00A7D244 /* UnicodeScalar+Emoji.swift in Sources */,
 				F7C47F92206AE8BB002BF7CF /* URL+QueryParameters.swift in Sources */,
 				F70CD342207198C900560696 /* Weak.swift in Sources */,
 				F72857A021697D2B00C30D93 /* Optional+String.swift in Sources */,
@@ -688,6 +705,7 @@
 			files = (
 				F7E6BADD2055D997000D2D28 /* FloatingPoint+Angles.swift in Sources */,
 				F7E6BADE2055D997000D2D28 /* FloatingPoint+Percentages.swift in Sources */,
+				F7AFF7D7218E1FFA00A7D244 /* UnicodeScalar+Emoji.swift in Sources */,
 				F7C47F93206AE8BB002BF7CF /* URL+QueryParameters.swift in Sources */,
 				F70CD343207198C900560696 /* Weak.swift in Sources */,
 				F72857A121697D2B00C30D93 /* Optional+String.swift in Sources */,
