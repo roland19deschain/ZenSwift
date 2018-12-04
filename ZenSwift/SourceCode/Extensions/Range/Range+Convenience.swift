@@ -1,6 +1,6 @@
 import Foundation
 
-extension Range where Bound == String.Index {
+public extension Range where Bound == String.Index {
     
     /// Returns representation of self as a 'NSRange'.
     var nsRange: NSRange {
