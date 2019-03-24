@@ -85,6 +85,10 @@
 		F7A031AA2059DEDE0028039D /* String+Attributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7A031A82059DEDE0028039D /* String+Attributes.swift */; };
 		F7A031AB2059DEDE0028039D /* String+Attributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7A031A82059DEDE0028039D /* String+Attributes.swift */; };
 		F7A031AC2059DEDE0028039D /* String+Attributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7A031A82059DEDE0028039D /* String+Attributes.swift */; };
+		F7A9F0C1224837260089A7BF /* Array+Chunked.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7A9F0C0224837260089A7BF /* Array+Chunked.swift */; };
+		F7A9F0C2224837260089A7BF /* Array+Chunked.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7A9F0C0224837260089A7BF /* Array+Chunked.swift */; };
+		F7A9F0C3224837260089A7BF /* Array+Chunked.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7A9F0C0224837260089A7BF /* Array+Chunked.swift */; };
+		F7A9F0C4224837260089A7BF /* Array+Chunked.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7A9F0C0224837260089A7BF /* Array+Chunked.swift */; };
 		F7AFF7D5218E1FFA00A7D244 /* UnicodeScalar+Emoji.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7AFF7D4218E1FFA00A7D244 /* UnicodeScalar+Emoji.swift */; };
 		F7AFF7D6218E1FFA00A7D244 /* UnicodeScalar+Emoji.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7AFF7D4218E1FFA00A7D244 /* UnicodeScalar+Emoji.swift */; };
 		F7AFF7D7218E1FFA00A7D244 /* UnicodeScalar+Emoji.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7AFF7D4218E1FFA00A7D244 /* UnicodeScalar+Emoji.swift */; };
@@ -176,6 +180,7 @@
 		F7A0319E2059DE380028039D /* String+Style.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Style.swift"; sourceTree = "<group>"; };
 		F7A031A32059DE5F0028039D /* String+Trim.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Trim.swift"; sourceTree = "<group>"; };
 		F7A031A82059DEDE0028039D /* String+Attributes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Attributes.swift"; sourceTree = "<group>"; };
+		F7A9F0C0224837260089A7BF /* Array+Chunked.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Array+Chunked.swift"; sourceTree = "<group>"; };
 		F7AFF7D4218E1FFA00A7D244 /* UnicodeScalar+Emoji.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UnicodeScalar+Emoji.swift"; sourceTree = "<group>"; };
 		F7AFF7F8218E34AF00A7D244 /* Encodable+JSON.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Encodable+JSON.swift"; sourceTree = "<group>"; };
 		F7AFF7FE218E34CF00A7D244 /* Decodable+JSON.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Decodable+JSON.swift"; sourceTree = "<group>"; };
@@ -333,6 +338,7 @@
 			children = (
 				F76F7EDC20544C39007C919A /* Array+NextPrevious.swift */,
 				F76F7EDD20544C39007C919A /* Array+RemoveItem.swift */,
+				F7A9F0C0224837260089A7BF /* Array+Chunked.swift */,
 				F76BDCBA2143E4DF00DD0B46 /* Array+RemoveDuplicates.swift */,
 			);
 			path = Array;
@@ -650,6 +656,7 @@
 			files = (
 				F76F7EE020544C39007C919A /* Array+RemoveItem.swift in Sources */,
 				F76F7EDE20544C39007C919A /* Array+NextPrevious.swift in Sources */,
+				F7A9F0C1224837260089A7BF /* Array+Chunked.swift in Sources */,
 				F7AFF7D5218E1FFA00A7D244 /* UnicodeScalar+Emoji.swift in Sources */,
 				F7C47F91206AE8BB002BF7CF /* URL+QueryParameters.swift in Sources */,
 				F7AFF7FF218E34CF00A7D244 /* Decodable+JSON.swift in Sources */,
@@ -691,6 +698,7 @@
 			files = (
 				F76F7EE120544C39007C919A /* Array+RemoveItem.swift in Sources */,
 				F76F7EDF20544C39007C919A /* Array+NextPrevious.swift in Sources */,
+				F7A9F0C4224837260089A7BF /* Array+Chunked.swift in Sources */,
 				F7AFF7D8218E1FFA00A7D244 /* UnicodeScalar+Emoji.swift in Sources */,
 				F7C47F94206AE8BB002BF7CF /* URL+QueryParameters.swift in Sources */,
 				F7AFF802218E34CF00A7D244 /* Decodable+JSON.swift in Sources */,
@@ -732,6 +740,7 @@
 			files = (
 				F7E6BAC02055D7F2000D2D28 /* FloatingPoint+Angles.swift in Sources */,
 				F7E6BAC12055D7F2000D2D28 /* FloatingPoint+Percentages.swift in Sources */,
+				F7A9F0C2224837260089A7BF /* Array+Chunked.swift in Sources */,
 				F7AFF7D6218E1FFA00A7D244 /* UnicodeScalar+Emoji.swift in Sources */,
 				F7C47F92206AE8BB002BF7CF /* URL+QueryParameters.swift in Sources */,
 				F7AFF800218E34CF00A7D244 /* Decodable+JSON.swift in Sources */,
@@ -773,6 +782,7 @@
 			files = (
 				F7E6BADD2055D997000D2D28 /* FloatingPoint+Angles.swift in Sources */,
 				F7E6BADE2055D997000D2D28 /* FloatingPoint+Percentages.swift in Sources */,
+				F7A9F0C3224837260089A7BF /* Array+Chunked.swift in Sources */,
 				F7AFF7D7218E1FFA00A7D244 /* UnicodeScalar+Emoji.swift in Sources */,
 				F7C47F93206AE8BB002BF7CF /* URL+QueryParameters.swift in Sources */,
 				F7AFF801218E34CF00A7D244 /* Decodable+JSON.swift in Sources */,
