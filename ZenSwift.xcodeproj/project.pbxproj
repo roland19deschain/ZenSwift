@@ -105,10 +105,6 @@
 		F7C47F92206AE8BB002BF7CF /* URL+QueryParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7C47F90206AE8BB002BF7CF /* URL+QueryParameters.swift */; };
 		F7C47F93206AE8BB002BF7CF /* URL+QueryParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7C47F90206AE8BB002BF7CF /* URL+QueryParameters.swift */; };
 		F7C47F94206AE8BB002BF7CF /* URL+QueryParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7C47F90206AE8BB002BF7CF /* URL+QueryParameters.swift */; };
-		F7C6F86A21B72CDD009A0A79 /* Range+Convenience.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7C6F86921B72CDC009A0A79 /* Range+Convenience.swift */; };
-		F7C6F86B21B72CDD009A0A79 /* Range+Convenience.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7C6F86921B72CDC009A0A79 /* Range+Convenience.swift */; };
-		F7C6F86C21B72CDD009A0A79 /* Range+Convenience.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7C6F86921B72CDC009A0A79 /* Range+Convenience.swift */; };
-		F7C6F86D21B72CDD009A0A79 /* Range+Convenience.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7C6F86921B72CDC009A0A79 /* Range+Convenience.swift */; };
 		F7D701DE216FFCC200FF9EAC /* String+Ranges.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7D701DD216FFCC200FF9EAC /* String+Ranges.swift */; };
 		F7D701DF216FFCC200FF9EAC /* String+Ranges.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7D701DD216FFCC200FF9EAC /* String+Ranges.swift */; };
 		F7D701E0216FFCC200FF9EAC /* String+Ranges.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7D701DD216FFCC200FF9EAC /* String+Ranges.swift */; };
@@ -185,7 +181,6 @@
 		F7AFF7F8218E34AF00A7D244 /* Encodable+JSON.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Encodable+JSON.swift"; sourceTree = "<group>"; };
 		F7AFF7FE218E34CF00A7D244 /* Decodable+JSON.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Decodable+JSON.swift"; sourceTree = "<group>"; };
 		F7C47F90206AE8BB002BF7CF /* URL+QueryParameters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "URL+QueryParameters.swift"; sourceTree = "<group>"; };
-		F7C6F86921B72CDC009A0A79 /* Range+Convenience.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Range+Convenience.swift"; sourceTree = "<group>"; };
 		F7D701DD216FFCC200FF9EAC /* String+Ranges.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Ranges.swift"; sourceTree = "<group>"; };
 		F7E1D137209E6B2800A076B5 /* String+Compare.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Compare.swift"; sourceTree = "<group>"; };
 		F7E6BA54205551C8000D2D28 /* String+URLs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+URLs.swift"; sourceTree = "<group>"; };
@@ -245,7 +240,6 @@
 				F7C47F95206AE8BF002BF7CF /* URL */,
 				F7AFF7FD218E34BD00A7D244 /* Encodable */,
 				F7AFF803218E34D800A7D244 /* Decodable */,
-				F7C6F86E21B72CED009A0A79 /* Range */,
 				F77B317D22162EFE005375B7 /* Mirror */,
 			);
 			path = Extensions;
@@ -407,14 +401,6 @@
 				F7C47F90206AE8BB002BF7CF /* URL+QueryParameters.swift */,
 			);
 			path = URL;
-			sourceTree = "<group>";
-		};
-		F7C6F86E21B72CED009A0A79 /* Range */ = {
-			isa = PBXGroup;
-			children = (
-				F7C6F86921B72CDC009A0A79 /* Range+Convenience.swift */,
-			);
-			path = Range;
 			sourceTree = "<group>";
 		};
 		F7E6BA53205551C8000D2D28 /* String */ = {
@@ -593,7 +579,7 @@
 					};
 					F7E6BAD12055D976000D2D28 = {
 						CreatedOnToolsVersion = 9.2;
-						LastSwiftMigration = 1000;
+						LastSwiftMigration = 1020;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -604,6 +590,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = F71EFE3C205447FE00B49902;
 			productRefGroup = F71EFE47205447FE00B49902 /* Products */;
@@ -661,7 +648,6 @@
 				F7C47F91206AE8BB002BF7CF /* URL+QueryParameters.swift in Sources */,
 				F7AFF7FF218E34CF00A7D244 /* Decodable+JSON.swift in Sources */,
 				F70CD341207198C900560696 /* Weak.swift in Sources */,
-				F7C6F86A21B72CDD009A0A79 /* Range+Convenience.swift in Sources */,
 				F728579F21697D2B00C30D93 /* Optional+String.swift in Sources */,
 				F76BDCBB2143E4DF00DD0B46 /* Array+RemoveDuplicates.swift in Sources */,
 				F7A031A42059DE5F0028039D /* String+Trim.swift in Sources */,
@@ -703,7 +689,6 @@
 				F7C47F94206AE8BB002BF7CF /* URL+QueryParameters.swift in Sources */,
 				F7AFF802218E34CF00A7D244 /* Decodable+JSON.swift in Sources */,
 				F70CD344207198C900560696 /* Weak.swift in Sources */,
-				F7C6F86D21B72CDD009A0A79 /* Range+Convenience.swift in Sources */,
 				F72857A221697D2B00C30D93 /* Optional+String.swift in Sources */,
 				F76BDCBE2143E4DF00DD0B46 /* Array+RemoveDuplicates.swift in Sources */,
 				F7A031A72059DE5F0028039D /* String+Trim.swift in Sources */,
@@ -745,7 +730,6 @@
 				F7C47F92206AE8BB002BF7CF /* URL+QueryParameters.swift in Sources */,
 				F7AFF800218E34CF00A7D244 /* Decodable+JSON.swift in Sources */,
 				F70CD342207198C900560696 /* Weak.swift in Sources */,
-				F7C6F86B21B72CDD009A0A79 /* Range+Convenience.swift in Sources */,
 				F72857A021697D2B00C30D93 /* Optional+String.swift in Sources */,
 				F76BDCBC2143E4DF00DD0B46 /* Array+RemoveDuplicates.swift in Sources */,
 				F7A031A52059DE5F0028039D /* String+Trim.swift in Sources */,
@@ -787,7 +771,6 @@
 				F7C47F93206AE8BB002BF7CF /* URL+QueryParameters.swift in Sources */,
 				F7AFF801218E34CF00A7D244 /* Decodable+JSON.swift in Sources */,
 				F70CD343207198C900560696 /* Weak.swift in Sources */,
-				F7C6F86C21B72CDD009A0A79 /* Range+Convenience.swift in Sources */,
 				F72857A121697D2B00C30D93 /* Optional+String.swift in Sources */,
 				F76BDCBD2143E4DF00DD0B46 /* Array+RemoveDuplicates.swift in Sources */,
 				F7A031A62059DE5F0028039D /* String+Trim.swift in Sources */,
@@ -954,7 +937,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = ZenInc.ZenSwift;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -975,7 +958,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = ZenInc.ZenSwift;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -999,7 +982,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
@@ -1022,7 +1005,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};
@@ -1042,7 +1025,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = appletvos;
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 3;
 				TVOS_DEPLOYMENT_TARGET = 9.0;
 			};
@@ -1064,7 +1047,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = appletvos;
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 3;
 				TVOS_DEPLOYMENT_TARGET = 9.0;
 			};
@@ -1087,7 +1070,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 4;
 				WATCHOS_DEPLOYMENT_TARGET = 2.0;
 			};
@@ -1110,7 +1093,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 4;
 				WATCHOS_DEPLOYMENT_TARGET = 2.0;
 			};

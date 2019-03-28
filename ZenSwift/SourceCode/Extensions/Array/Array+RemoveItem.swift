@@ -4,7 +4,7 @@ public extension Array where Element: Equatable {
     
     /// Removes specified element.
     mutating func remove(_ item: Element) {
-        if let index = index(of: item) {
+        if let index = firstIndex(of: item) {
             remove(at: index)
         }
     }

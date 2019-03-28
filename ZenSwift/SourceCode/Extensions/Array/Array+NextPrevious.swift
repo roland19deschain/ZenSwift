@@ -13,7 +13,7 @@ public extension Array where Element: Equatable {
     private func neighbor(of item: Element,
                           step: Int,
                           offset: (Int, Int) -> Int) -> Element? {
-        guard let index = index(of: item), offset(index, step) < count else {
+        guard let index = firstIndex(of: item), offset(index, step) < count else {
             return nil
         }
         return self[offset(index, step)]
