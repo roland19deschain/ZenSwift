@@ -1,6 +1,6 @@
 import Foundation
 
-extension String {
+public extension String {
     
     /**
      Creates an instance initialized by the sequence of unicodeScalars.
