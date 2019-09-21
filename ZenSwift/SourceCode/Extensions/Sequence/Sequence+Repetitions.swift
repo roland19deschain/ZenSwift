@@ -1,6 +1,6 @@
 import Foundation
 
-extension Sequence where Element: Hashable {
+public extension Sequence where Element: Hashable {
     
     /// Returns a new dictionary containing the key-value pairs,
     /// in which the key is a sequence element,
