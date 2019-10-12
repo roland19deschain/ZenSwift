@@ -1,6 +1,6 @@
 import Foundation
 
-public extension BidirectionalCollection {
+public extension Collection {
     
     /// Returns a subsequence containing all but the specified number of initial and final elements.
     /// The sequence must be finite. If the number of elements to drop exceeds the number of
