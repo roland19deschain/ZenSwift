@@ -73,6 +73,10 @@
 		F794DA212054A50200DB71A4 /* FloatingPoint+Angles.swift in Sources */ = {isa = PBXBuildFile; fileRef = F794DA1A2054A50200DB71A4 /* FloatingPoint+Angles.swift */; };
 		F794DA222054A50200DB71A4 /* FloatingPoint+Percentages.swift in Sources */ = {isa = PBXBuildFile; fileRef = F794DA1B2054A50200DB71A4 /* FloatingPoint+Percentages.swift */; };
 		F794DA232054A50200DB71A4 /* FloatingPoint+Percentages.swift in Sources */ = {isa = PBXBuildFile; fileRef = F794DA1B2054A50200DB71A4 /* FloatingPoint+Percentages.swift */; };
+		F79B673B2359174E00A8E552 /* Sequence+Count.swift in Sources */ = {isa = PBXBuildFile; fileRef = F79B673A2359174E00A8E552 /* Sequence+Count.swift */; };
+		F79B673C2359174E00A8E552 /* Sequence+Count.swift in Sources */ = {isa = PBXBuildFile; fileRef = F79B673A2359174E00A8E552 /* Sequence+Count.swift */; };
+		F79B673D2359174E00A8E552 /* Sequence+Count.swift in Sources */ = {isa = PBXBuildFile; fileRef = F79B673A2359174E00A8E552 /* Sequence+Count.swift */; };
+		F79B673E2359174E00A8E552 /* Sequence+Count.swift in Sources */ = {isa = PBXBuildFile; fileRef = F79B673A2359174E00A8E552 /* Sequence+Count.swift */; };
 		F79BFD00231C4FBE00698628 /* String+UnicodeScalars.swift in Sources */ = {isa = PBXBuildFile; fileRef = F79BFCFF231C4FBE00698628 /* String+UnicodeScalars.swift */; };
 		F79BFD01231C4FBE00698628 /* String+UnicodeScalars.swift in Sources */ = {isa = PBXBuildFile; fileRef = F79BFCFF231C4FBE00698628 /* String+UnicodeScalars.swift */; };
 		F79BFD02231C4FBE00698628 /* String+UnicodeScalars.swift in Sources */ = {isa = PBXBuildFile; fileRef = F79BFCFF231C4FBE00698628 /* String+UnicodeScalars.swift */; };
@@ -193,6 +197,7 @@
 		F794DA182054A50100DB71A4 /* Collection+SafeSubscript.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Collection+SafeSubscript.swift"; sourceTree = "<group>"; };
 		F794DA1A2054A50200DB71A4 /* FloatingPoint+Angles.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "FloatingPoint+Angles.swift"; sourceTree = "<group>"; };
 		F794DA1B2054A50200DB71A4 /* FloatingPoint+Percentages.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "FloatingPoint+Percentages.swift"; sourceTree = "<group>"; };
+		F79B673A2359174E00A8E552 /* Sequence+Count.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Sequence+Count.swift"; sourceTree = "<group>"; };
 		F79BFCFF231C4FBE00698628 /* String+UnicodeScalars.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+UnicodeScalars.swift"; sourceTree = "<group>"; };
 		F7A0318F2059DDCE0028039D /* String+Lines.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Lines.swift"; sourceTree = "<group>"; };
 		F7A031942059DDF90028039D /* String+Localization.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Localization.swift"; sourceTree = "<group>"; };
@@ -366,6 +371,7 @@
 		F794DA152054A50100DB71A4 /* Sequence */ = {
 			isa = PBXGroup;
 			children = (
+				F79B673A2359174E00A8E552 /* Sequence+Count.swift */,
 				F78168EC2336D2B30059BB1F /* Sequence+Repetitions.swift */,
 				F794DA162054A50100DB71A4 /* Sequence+ReduceBoolean.swift */,
 			);
@@ -675,6 +681,7 @@
 				F76BDCBB2143E4DF00DD0B46 /* Array+Duplicates.swift in Sources */,
 				F7A031A42059DE5F0028039D /* String+Trim.swift in Sources */,
 				F70CD351207198C900560696 /* StateMachineDataSource.swift in Sources */,
+				F79B673B2359174E00A8E552 /* Sequence+Count.swift in Sources */,
 				F7E1D138209E6B2800A076B5 /* String+Compare.swift in Sources */,
 				F7A0319F2059DE380028039D /* String+Style.swift in Sources */,
 				F794DA1E2054A50200DB71A4 /* Collection+SafeSubscript.swift in Sources */,
@@ -721,6 +728,7 @@
 				F76BDCBE2143E4DF00DD0B46 /* Array+Duplicates.swift in Sources */,
 				F7A031A72059DE5F0028039D /* String+Trim.swift in Sources */,
 				F70CD354207198C900560696 /* StateMachineDataSource.swift in Sources */,
+				F79B673E2359174E00A8E552 /* Sequence+Count.swift in Sources */,
 				F7E1D13B209E6B2800A076B5 /* String+Compare.swift in Sources */,
 				F7A031A22059DE380028039D /* String+Style.swift in Sources */,
 				F794DA1F2054A50200DB71A4 /* Collection+SafeSubscript.swift in Sources */,
@@ -767,6 +775,7 @@
 				F76BDCBC2143E4DF00DD0B46 /* Array+Duplicates.swift in Sources */,
 				F7A031A52059DE5F0028039D /* String+Trim.swift in Sources */,
 				F70CD352207198C900560696 /* StateMachineDataSource.swift in Sources */,
+				F79B673C2359174E00A8E552 /* Sequence+Count.swift in Sources */,
 				F7E1D139209E6B2800A076B5 /* String+Compare.swift in Sources */,
 				F7A031A02059DE380028039D /* String+Style.swift in Sources */,
 				F7E6BAC42055D7F2000D2D28 /* String+Digits.swift in Sources */,
@@ -813,6 +822,7 @@
 				F76BDCBD2143E4DF00DD0B46 /* Array+Duplicates.swift in Sources */,
 				F7A031A62059DE5F0028039D /* String+Trim.swift in Sources */,
 				F70CD353207198C900560696 /* StateMachineDataSource.swift in Sources */,
+				F79B673D2359174E00A8E552 /* Sequence+Count.swift in Sources */,
 				F7E1D13A209E6B2800A076B5 /* String+Compare.swift in Sources */,
 				F7A031A12059DE380028039D /* String+Style.swift in Sources */,
 				F7E6BAE12055D997000D2D28 /* String+Digits.swift in Sources */,
