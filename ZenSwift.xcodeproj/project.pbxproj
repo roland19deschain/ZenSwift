@@ -145,9 +145,6 @@
 		F7E6BA59205551C9000D2D28 /* String+URLs.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7E6BA54205551C8000D2D28 /* String+URLs.swift */; };
 		F7E6BA5A205551C9000D2D28 /* String+Digits.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7E6BA55205551C8000D2D28 /* String+Digits.swift */; };
 		F7E6BA5B205551C9000D2D28 /* String+Digits.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7E6BA55205551C8000D2D28 /* String+Digits.swift */; };
-		F7E6BA902055549A000D2D28 /* Int+Angles.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7E6BA8F2055549A000D2D28 /* Int+Angles.swift */; };
-		F7E6BA912055549A000D2D28 /* Int+Angles.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7E6BA8F2055549A000D2D28 /* Int+Angles.swift */; };
-		F7E6BABE2055D7F2000D2D28 /* Int+Angles.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7E6BA8F2055549A000D2D28 /* Int+Angles.swift */; };
 		F7E6BAC02055D7F2000D2D28 /* FloatingPoint+Angles.swift in Sources */ = {isa = PBXBuildFile; fileRef = F794DA1A2054A50200DB71A4 /* FloatingPoint+Angles.swift */; };
 		F7E6BAC12055D7F2000D2D28 /* FloatingPoint+Percentages.swift in Sources */ = {isa = PBXBuildFile; fileRef = F794DA1B2054A50200DB71A4 /* FloatingPoint+Percentages.swift */; };
 		F7E6BAC32055D7F2000D2D28 /* String+URLs.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7E6BA54205551C8000D2D28 /* String+URLs.swift */; };
@@ -157,7 +154,6 @@
 		F7E6BACA2055D7F2000D2D28 /* Collection+SafeSubscript.swift in Sources */ = {isa = PBXBuildFile; fileRef = F794DA182054A50100DB71A4 /* Collection+SafeSubscript.swift */; };
 		F7E6BACB2055D7F2000D2D28 /* Sequence+ReduceBoolean.swift in Sources */ = {isa = PBXBuildFile; fileRef = F794DA162054A50100DB71A4 /* Sequence+ReduceBoolean.swift */; };
 		F7E6BACC2055D7F2000D2D28 /* ZenSwift.h in Headers */ = {isa = PBXBuildFile; fileRef = F71EFE49205447FE00B49902 /* ZenSwift.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F7E6BADB2055D997000D2D28 /* Int+Angles.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7E6BA8F2055549A000D2D28 /* Int+Angles.swift */; };
 		F7E6BADD2055D997000D2D28 /* FloatingPoint+Angles.swift in Sources */ = {isa = PBXBuildFile; fileRef = F794DA1A2054A50200DB71A4 /* FloatingPoint+Angles.swift */; };
 		F7E6BADE2055D997000D2D28 /* FloatingPoint+Percentages.swift in Sources */ = {isa = PBXBuildFile; fileRef = F794DA1B2054A50200DB71A4 /* FloatingPoint+Percentages.swift */; };
 		F7E6BAE02055D997000D2D28 /* String+URLs.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7E6BA54205551C8000D2D28 /* String+URLs.swift */; };
@@ -220,7 +216,6 @@
 		F7E1D137209E6B2800A076B5 /* String+Compare.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Compare.swift"; sourceTree = "<group>"; };
 		F7E6BA54205551C8000D2D28 /* String+URLs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+URLs.swift"; sourceTree = "<group>"; };
 		F7E6BA55205551C8000D2D28 /* String+Digits.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Digits.swift"; sourceTree = "<group>"; };
-		F7E6BA8F2055549A000D2D28 /* Int+Angles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Int+Angles.swift"; sourceTree = "<group>"; };
 		F7E6BAB52055D7C2000D2D28 /* ZenSwift_tvOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ZenSwift_tvOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7E6BAD22055D976000D2D28 /* ZenSwift_watchOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ZenSwift_watchOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7E6BAEA2055E4E2000D2D28 /* Optional+Handle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Optional+Handle.swift"; sourceTree = "<group>"; };
@@ -464,7 +459,6 @@
 		F7E6BA8E20555483000D2D28 /* Int */ = {
 			isa = PBXGroup;
 			children = (
-				F7E6BA8F2055549A000D2D28 /* Int+Angles.swift */,
 				F79B6744235CA31F00A8E552 /* Int+Random.swift */,
 			);
 			path = Int;
@@ -707,7 +701,6 @@
 				F7AC30BF231B336000F501A3 /* Unowned.swift in Sources */,
 				F76879B7235285B9009B30AD /* String+Search.swift in Sources */,
 				F70CD349207198C900560696 /* StateMachine.swift in Sources */,
-				F7E6BA902055549A000D2D28 /* Int+Angles.swift in Sources */,
 				F79BFD00231C4FBE00698628 /* String+UnicodeScalars.swift in Sources */,
 				F7A0319A2059DE180028039D /* String+Introspection.swift in Sources */,
 				F7E6BA58205551C9000D2D28 /* String+URLs.swift in Sources */,
@@ -755,7 +748,6 @@
 				F7AC30C0231B336700F501A3 /* Unowned.swift in Sources */,
 				F76879BA235285B9009B30AD /* String+Search.swift in Sources */,
 				F70CD34C207198C900560696 /* StateMachine.swift in Sources */,
-				F7E6BA912055549A000D2D28 /* Int+Angles.swift in Sources */,
 				F79BFD03231C4FBE00698628 /* String+UnicodeScalars.swift in Sources */,
 				F7A0319D2059DE180028039D /* String+Introspection.swift in Sources */,
 				F7E6BA59205551C9000D2D28 /* String+URLs.swift in Sources */,
@@ -790,7 +782,6 @@
 				F7E6BAC42055D7F2000D2D28 /* String+Digits.swift in Sources */,
 				F728579B21697C1000C30D93 /* String+Convenience.swift in Sources */,
 				F7B1E40B234A8F79008B5587 /* Optional+Unwrap.swift in Sources */,
-				F7E6BABE2055D7F2000D2D28 /* Int+Angles.swift in Sources */,
 				F76879BD23528648009B30AD /* Collection+Search.swift in Sources */,
 				F76879C223528695009B30AD /* Collection+Drop.swift in Sources */,
 				F7E6BAC32055D7F2000D2D28 /* String+URLs.swift in Sources */,
@@ -838,7 +829,6 @@
 				F7E6BAE12055D997000D2D28 /* String+Digits.swift in Sources */,
 				F728579C21697C1000C30D93 /* String+Convenience.swift in Sources */,
 				F7B1E40C234A8F79008B5587 /* Optional+Unwrap.swift in Sources */,
-				F7E6BADB2055D997000D2D28 /* Int+Angles.swift in Sources */,
 				F76879BE23528648009B30AD /* Collection+Search.swift in Sources */,
 				F76879C323528695009B30AD /* Collection+Drop.swift in Sources */,
 				F7E6BAE02055D997000D2D28 /* String+URLs.swift in Sources */,
