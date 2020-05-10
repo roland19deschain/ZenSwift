@@ -133,6 +133,10 @@
 		F7B1E40B234A8F79008B5587 /* Optional+Unwrap.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7B1E409234A8F79008B5587 /* Optional+Unwrap.swift */; };
 		F7B1E40C234A8F79008B5587 /* Optional+Unwrap.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7B1E409234A8F79008B5587 /* Optional+Unwrap.swift */; };
 		F7B1E40D234A8F79008B5587 /* Optional+Unwrap.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7B1E409234A8F79008B5587 /* Optional+Unwrap.swift */; };
+		F7C022A92468B2CC0063FAB2 /* Int+Computations.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7C022A82468B2CC0063FAB2 /* Int+Computations.swift */; };
+		F7C022AA2468B2CC0063FAB2 /* Int+Computations.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7C022A82468B2CC0063FAB2 /* Int+Computations.swift */; };
+		F7C022AB2468B2CC0063FAB2 /* Int+Computations.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7C022A82468B2CC0063FAB2 /* Int+Computations.swift */; };
+		F7C022AC2468B2CC0063FAB2 /* Int+Computations.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7C022A82468B2CC0063FAB2 /* Int+Computations.swift */; };
 		F7C47F91206AE8BB002BF7CF /* URL+QueryParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7C47F90206AE8BB002BF7CF /* URL+QueryParameters.swift */; };
 		F7C47F92206AE8BB002BF7CF /* URL+QueryParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7C47F90206AE8BB002BF7CF /* URL+QueryParameters.swift */; };
 		F7C47F93206AE8BB002BF7CF /* URL+QueryParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7C47F90206AE8BB002BF7CF /* URL+QueryParameters.swift */; };
@@ -212,6 +216,7 @@
 		F7AFF7F8218E34AF00A7D244 /* Encodable+JSON.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Encodable+JSON.swift"; sourceTree = "<group>"; };
 		F7AFF7FE218E34CF00A7D244 /* Decodable+JSON.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Decodable+JSON.swift"; sourceTree = "<group>"; };
 		F7B1E409234A8F79008B5587 /* Optional+Unwrap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Optional+Unwrap.swift"; sourceTree = "<group>"; };
+		F7C022A82468B2CC0063FAB2 /* Int+Computations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Int+Computations.swift"; sourceTree = "<group>"; };
 		F7C47F90206AE8BB002BF7CF /* URL+QueryParameters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "URL+QueryParameters.swift"; sourceTree = "<group>"; };
 		F7E1D137209E6B2800A076B5 /* String+Compare.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Compare.swift"; sourceTree = "<group>"; };
 		F7E6BA54205551C8000D2D28 /* String+URLs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+URLs.swift"; sourceTree = "<group>"; };
@@ -460,6 +465,7 @@
 			isa = PBXGroup;
 			children = (
 				F79B6744235CA31F00A8E552 /* Int+Random.swift */,
+				F7C022A82468B2CC0063FAB2 /* Int+Computations.swift */,
 			);
 			path = Int;
 			sourceTree = "<group>";
@@ -707,6 +713,7 @@
 				F70CD34D207198C900560696 /* ShouldType.swift in Sources */,
 				F7A031902059DDCE0028039D /* String+Lines.swift in Sources */,
 				F77B317922162EF5005375B7 /* Mirror+ReflectProperties.swift in Sources */,
+				F7C022A92468B2CC0063FAB2 /* Int+Computations.swift in Sources */,
 				F7E6BAFB2055E9D1000D2D28 /* Bool+Integer.swift in Sources */,
 				F7E6BAEB2055E4E2000D2D28 /* Optional+Handle.swift in Sources */,
 			);
@@ -754,6 +761,7 @@
 				F70CD350207198C900560696 /* ShouldType.swift in Sources */,
 				F7A031932059DDCE0028039D /* String+Lines.swift in Sources */,
 				F77B317C22162EF5005375B7 /* Mirror+ReflectProperties.swift in Sources */,
+				F7C022AC2468B2CC0063FAB2 /* Int+Computations.swift in Sources */,
 				F7E6BAFE2055E9D1000D2D28 /* Bool+Integer.swift in Sources */,
 				F7E6BAEE2055E4E2000D2D28 /* Optional+Handle.swift in Sources */,
 			);
@@ -801,6 +809,7 @@
 				F70CD34E207198C900560696 /* ShouldType.swift in Sources */,
 				F7A031912059DDCE0028039D /* String+Lines.swift in Sources */,
 				F77B317A22162EF5005375B7 /* Mirror+ReflectProperties.swift in Sources */,
+				F7C022AA2468B2CC0063FAB2 /* Int+Computations.swift in Sources */,
 				F7E6BAFC2055E9D1000D2D28 /* Bool+Integer.swift in Sources */,
 				F7E6BAEC2055E4E2000D2D28 /* Optional+Handle.swift in Sources */,
 			);
@@ -848,6 +857,7 @@
 				F70CD34F207198C900560696 /* ShouldType.swift in Sources */,
 				F7A031922059DDCE0028039D /* String+Lines.swift in Sources */,
 				F77B317B22162EF5005375B7 /* Mirror+ReflectProperties.swift in Sources */,
+				F7C022AB2468B2CC0063FAB2 /* Int+Computations.swift in Sources */,
 				F7E6BAFD2055E9D1000D2D28 /* Bool+Integer.swift in Sources */,
 				F7E6BAED2055E4E2000D2D28 /* Optional+Handle.swift in Sources */,
 			);
