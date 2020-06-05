@@ -17,6 +17,18 @@ public struct Weak<T: AnyObject> {
 	
 }
 
+// MARK: - Convenience
+
+public extension Weak {
+	
+	/// Returns a Boolean value indicating whether the wrapped value is nil.
+	var isEmpty: Bool {
+		
+		value == nil
+	}
+	
+}
+
 // MARK: - Decodable
 
 extension Weak: Decodable where T: Decodable {
