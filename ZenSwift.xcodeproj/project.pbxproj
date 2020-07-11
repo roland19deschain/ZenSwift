@@ -313,7 +313,6 @@
 			isa = PBXGroup;
 			children = (
 				F70CD33C207198C900560696 /* StateMachine */,
-				F70CD33A207198C900560696 /* Wrappers */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -359,6 +358,7 @@
 			isa = PBXGroup;
 			children = (
 				F70CD3392071988000560696 /* Extensions */,
+				F70CD33A207198C900560696 /* Wrappers */,
 				F70CD355207198CD00560696 /* Components */,
 			);
 			path = SourceCode;
