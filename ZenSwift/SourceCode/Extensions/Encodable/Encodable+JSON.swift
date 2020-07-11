@@ -2,9 +2,14 @@ import Foundation
 
 public extension Encodable {
 	
+	/// Returns self as JSON-encoded data.
+	var jsonData: Data? {
+		try? JSONEncoder().encode(self)
+	}
+	
 	/// Returns a JSON-encoded representation of self.
 	var jsonRepresentation: String? {
-		guard let data = try? JSONEncoder().encode(self) else {
+		guard let data = jsonData else {
 			return nil
 		}
 		return String(
