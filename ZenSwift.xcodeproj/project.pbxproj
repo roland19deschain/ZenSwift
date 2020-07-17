@@ -44,6 +44,9 @@
 		F733B19F2475DDE90095DFDC /* Array+Permutations.swift in Sources */ = {isa = PBXBuildFile; fileRef = F733B19C2475DDE90095DFDC /* Array+Permutations.swift */; };
 		F733B1A02475DDE90095DFDC /* Array+Permutations.swift in Sources */ = {isa = PBXBuildFile; fileRef = F733B19C2475DDE90095DFDC /* Array+Permutations.swift */; };
 		F74B841A24C25C1C00AF272A /* String+Modification.swift in Sources */ = {isa = PBXBuildFile; fileRef = F74B841924C25C1C00AF272A /* String+Modification.swift */; };
+		F74B841B24C25E8200AF272A /* String+Modification.swift in Sources */ = {isa = PBXBuildFile; fileRef = F74B841924C25C1C00AF272A /* String+Modification.swift */; };
+		F74B841C24C25E8300AF272A /* String+Modification.swift in Sources */ = {isa = PBXBuildFile; fileRef = F74B841924C25C1C00AF272A /* String+Modification.swift */; };
+		F74B841D24C25E8300AF272A /* String+Modification.swift in Sources */ = {isa = PBXBuildFile; fileRef = F74B841924C25C1C00AF272A /* String+Modification.swift */; };
 		F76879B7235285B9009B30AD /* String+Search.swift in Sources */ = {isa = PBXBuildFile; fileRef = F76879B6235285B9009B30AD /* String+Search.swift */; };
 		F76879B8235285B9009B30AD /* String+Search.swift in Sources */ = {isa = PBXBuildFile; fileRef = F76879B6235285B9009B30AD /* String+Search.swift */; };
 		F76879B9235285B9009B30AD /* String+Search.swift in Sources */ = {isa = PBXBuildFile; fileRef = F76879B6235285B9009B30AD /* String+Search.swift */; };
@@ -773,6 +776,7 @@
 				F7AFF7FC218E34AF00A7D244 /* Encodable+JSON.swift in Sources */,
 				F7A031982059DDF90028039D /* String+Localization.swift in Sources */,
 				F7AC30C0231B336700F501A3 /* Unowned.swift in Sources */,
+				F74B841D24C25E8300AF272A /* String+Modification.swift in Sources */,
 				F76879BA235285B9009B30AD /* String+Search.swift in Sources */,
 				F70CD34C207198C900560696 /* StateMachine.swift in Sources */,
 				F79BFD03231C4FBE00698628 /* String+UnicodeScalars.swift in Sources */,
@@ -823,6 +827,7 @@
 				F7A031962059DDF90028039D /* String+Localization.swift in Sources */,
 				F7AC30C1231B336900F501A3 /* Unowned.swift in Sources */,
 				F76879B8235285B9009B30AD /* String+Search.swift in Sources */,
+				F74B841B24C25E8200AF272A /* String+Modification.swift in Sources */,
 				F70CD34A207198C900560696 /* StateMachine.swift in Sources */,
 				F7E6BACA2055D7F2000D2D28 /* Collection+SafeSubscript.swift in Sources */,
 				F79BFD01231C4FBE00698628 /* String+UnicodeScalars.swift in Sources */,
@@ -873,6 +878,7 @@
 				F7A031972059DDF90028039D /* String+Localization.swift in Sources */,
 				F7AC30C2231B336900F501A3 /* Unowned.swift in Sources */,
 				F76879B9235285B9009B30AD /* String+Search.swift in Sources */,
+				F74B841C24C25E8300AF272A /* String+Modification.swift in Sources */,
 				F70CD34B207198C900560696 /* StateMachine.swift in Sources */,
 				F7E6BAE72055D997000D2D28 /* Collection+SafeSubscript.swift in Sources */,
 				F79BFD02231C4FBE00698628 /* String+UnicodeScalars.swift in Sources */,
