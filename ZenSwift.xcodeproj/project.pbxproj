@@ -149,10 +149,6 @@
 		F7C022AA2468B2CC0063FAB2 /* Int+Computations.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7C022A82468B2CC0063FAB2 /* Int+Computations.swift */; };
 		F7C022AB2468B2CC0063FAB2 /* Int+Computations.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7C022A82468B2CC0063FAB2 /* Int+Computations.swift */; };
 		F7C022AC2468B2CC0063FAB2 /* Int+Computations.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7C022A82468B2CC0063FAB2 /* Int+Computations.swift */; };
-		F7C47F91206AE8BB002BF7CF /* URL+QueryParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7C47F90206AE8BB002BF7CF /* URL+QueryParameters.swift */; };
-		F7C47F92206AE8BB002BF7CF /* URL+QueryParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7C47F90206AE8BB002BF7CF /* URL+QueryParameters.swift */; };
-		F7C47F93206AE8BB002BF7CF /* URL+QueryParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7C47F90206AE8BB002BF7CF /* URL+QueryParameters.swift */; };
-		F7C47F94206AE8BB002BF7CF /* URL+QueryParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7C47F90206AE8BB002BF7CF /* URL+QueryParameters.swift */; };
 		F7E1D138209E6B2800A076B5 /* String+Compare.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7E1D137209E6B2800A076B5 /* String+Compare.swift */; };
 		F7E1D139209E6B2800A076B5 /* String+Compare.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7E1D137209E6B2800A076B5 /* String+Compare.swift */; };
 		F7E1D13A209E6B2800A076B5 /* String+Compare.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7E1D137209E6B2800A076B5 /* String+Compare.swift */; };
@@ -232,7 +228,6 @@
 		F7AFF7FE218E34CF00A7D244 /* Decodable+JSON.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Decodable+JSON.swift"; sourceTree = "<group>"; };
 		F7B1E409234A8F79008B5587 /* Optional+Unwrap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Optional+Unwrap.swift"; sourceTree = "<group>"; };
 		F7C022A82468B2CC0063FAB2 /* Int+Computations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Int+Computations.swift"; sourceTree = "<group>"; };
-		F7C47F90206AE8BB002BF7CF /* URL+QueryParameters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "URL+QueryParameters.swift"; sourceTree = "<group>"; };
 		F7E1D137209E6B2800A076B5 /* String+Compare.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Compare.swift"; sourceTree = "<group>"; };
 		F7E6BA54205551C8000D2D28 /* String+URLs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+URLs.swift"; sourceTree = "<group>"; };
 		F7E6BA55205551C8000D2D28 /* String+Digits.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Digits.swift"; sourceTree = "<group>"; };
@@ -286,7 +281,6 @@
 				F76F7EDB20544C39007C919A /* Array */,
 				F794DA172054A50100DB71A4 /* Collection */,
 				F794DA152054A50100DB71A4 /* Sequence */,
-				F7C47F95206AE8BF002BF7CF /* URL */,
 				F7AFF7FD218E34BD00A7D244 /* Encodable */,
 				F7AFF803218E34D800A7D244 /* Decodable */,
 				F77B317D22162EFE005375B7 /* Mirror */,
@@ -441,14 +435,6 @@
 				F7AFF7FE218E34CF00A7D244 /* Decodable+JSON.swift */,
 			);
 			path = Decodable;
-			sourceTree = "<group>";
-		};
-		F7C47F95206AE8BF002BF7CF /* URL */ = {
-			isa = PBXGroup;
-			children = (
-				F7C47F90206AE8BB002BF7CF /* URL+QueryParameters.swift */,
-			);
-			path = URL;
 			sourceTree = "<group>";
 		};
 		F7E6BA53205551C8000D2D28 /* String */ = {
@@ -697,7 +683,6 @@
 				F76F7EDE20544C39007C919A /* Array+NextPrevious.swift in Sources */,
 				F7A9F0C1224837260089A7BF /* Array+Chunked.swift in Sources */,
 				F7AFF7D5218E1FFA00A7D244 /* UnicodeScalar+Emoji.swift in Sources */,
-				F7C47F91206AE8BB002BF7CF /* URL+QueryParameters.swift in Sources */,
 				F7AFF7FF218E34CF00A7D244 /* Decodable+JSON.swift in Sources */,
 				F79B6745235CA31F00A8E552 /* Int+Random.swift in Sources */,
 				F70CD341207198C900560696 /* Weak.swift in Sources */,
@@ -748,7 +733,6 @@
 				F76F7EDF20544C39007C919A /* Array+NextPrevious.swift in Sources */,
 				F7A9F0C4224837260089A7BF /* Array+Chunked.swift in Sources */,
 				F7AFF7D8218E1FFA00A7D244 /* UnicodeScalar+Emoji.swift in Sources */,
-				F7C47F94206AE8BB002BF7CF /* URL+QueryParameters.swift in Sources */,
 				F7AFF802218E34CF00A7D244 /* Decodable+JSON.swift in Sources */,
 				F79B6748235CA31F00A8E552 /* Int+Random.swift in Sources */,
 				F70CD344207198C900560696 /* Weak.swift in Sources */,
@@ -799,7 +783,6 @@
 				F7E6BAC12055D7F2000D2D28 /* FloatingPoint+Percentages.swift in Sources */,
 				F7A9F0C2224837260089A7BF /* Array+Chunked.swift in Sources */,
 				F7AFF7D6218E1FFA00A7D244 /* UnicodeScalar+Emoji.swift in Sources */,
-				F7C47F92206AE8BB002BF7CF /* URL+QueryParameters.swift in Sources */,
 				F7AFF800218E34CF00A7D244 /* Decodable+JSON.swift in Sources */,
 				F79B6746235CA31F00A8E552 /* Int+Random.swift in Sources */,
 				F70CD342207198C900560696 /* Weak.swift in Sources */,
@@ -850,7 +833,6 @@
 				F7E6BADE2055D997000D2D28 /* FloatingPoint+Percentages.swift in Sources */,
 				F7A9F0C3224837260089A7BF /* Array+Chunked.swift in Sources */,
 				F7AFF7D7218E1FFA00A7D244 /* UnicodeScalar+Emoji.swift in Sources */,
-				F7C47F93206AE8BB002BF7CF /* URL+QueryParameters.swift in Sources */,
 				F7AFF801218E34CF00A7D244 /* Decodable+JSON.swift in Sources */,
 				F79B6747235CA31F00A8E552 /* Int+Random.swift in Sources */,
 				F70CD343207198C900560696 /* Weak.swift in Sources */,
