@@ -153,6 +153,10 @@
 		F7E1D139209E6B2800A076B5 /* String+Compare.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7E1D137209E6B2800A076B5 /* String+Compare.swift */; };
 		F7E1D13A209E6B2800A076B5 /* String+Compare.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7E1D137209E6B2800A076B5 /* String+Compare.swift */; };
 		F7E1D13B209E6B2800A076B5 /* String+Compare.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7E1D137209E6B2800A076B5 /* String+Compare.swift */; };
+		F7E680D5252E357F00461D34 /* Dictionary+Difference.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7E680D4252E357F00461D34 /* Dictionary+Difference.swift */; };
+		F7E680D6252E357F00461D34 /* Dictionary+Difference.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7E680D4252E357F00461D34 /* Dictionary+Difference.swift */; };
+		F7E680D7252E357F00461D34 /* Dictionary+Difference.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7E680D4252E357F00461D34 /* Dictionary+Difference.swift */; };
+		F7E680D8252E357F00461D34 /* Dictionary+Difference.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7E680D4252E357F00461D34 /* Dictionary+Difference.swift */; };
 		F7E6BA58205551C9000D2D28 /* String+URLs.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7E6BA54205551C8000D2D28 /* String+URLs.swift */; };
 		F7E6BA59205551C9000D2D28 /* String+URLs.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7E6BA54205551C8000D2D28 /* String+URLs.swift */; };
 		F7E6BA5A205551C9000D2D28 /* String+Digits.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7E6BA55205551C8000D2D28 /* String+Digits.swift */; };
@@ -229,6 +233,7 @@
 		F7B1E409234A8F79008B5587 /* Optional+Unwrap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Optional+Unwrap.swift"; sourceTree = "<group>"; };
 		F7C022A82468B2CC0063FAB2 /* Int+Computations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Int+Computations.swift"; sourceTree = "<group>"; };
 		F7E1D137209E6B2800A076B5 /* String+Compare.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Compare.swift"; sourceTree = "<group>"; };
+		F7E680D4252E357F00461D34 /* Dictionary+Difference.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Dictionary+Difference.swift"; sourceTree = "<group>"; };
 		F7E6BA54205551C8000D2D28 /* String+URLs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+URLs.swift"; sourceTree = "<group>"; };
 		F7E6BA55205551C8000D2D28 /* String+Digits.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Digits.swift"; sourceTree = "<group>"; };
 		F7E6BAB52055D7C2000D2D28 /* ZenSwift_tvOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ZenSwift_tvOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -284,6 +289,7 @@
 				F7AFF7FD218E34BD00A7D244 /* Encodable */,
 				F7AFF803218E34D800A7D244 /* Decodable */,
 				F77B317D22162EFE005375B7 /* Mirror */,
+				F7E680DD252E358300461D34 /* Dictionary */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -435,6 +441,14 @@
 				F7AFF7FE218E34CF00A7D244 /* Decodable+JSON.swift */,
 			);
 			path = Decodable;
+			sourceTree = "<group>";
+		};
+		F7E680DD252E358300461D34 /* Dictionary */ = {
+			isa = PBXGroup;
+			children = (
+				F7E680D4252E357F00461D34 /* Dictionary+Difference.swift */,
+			);
+			path = Dictionary;
 			sourceTree = "<group>";
 		};
 		F7E6BA53205551C8000D2D28 /* String */ = {
@@ -716,6 +730,7 @@
 				F79BFD00231C4FBE00698628 /* String+UnicodeScalars.swift in Sources */,
 				F7A0319A2059DE180028039D /* String+Introspection.swift in Sources */,
 				F7E6BA58205551C9000D2D28 /* String+URLs.swift in Sources */,
+				F7E680D5252E357F00461D34 /* Dictionary+Difference.swift in Sources */,
 				F70CD34D207198C900560696 /* ShouldType.swift in Sources */,
 				F7A031902059DDCE0028039D /* String+Lines.swift in Sources */,
 				F77B317922162EF5005375B7 /* Mirror+ReflectProperties.swift in Sources */,
@@ -766,6 +781,7 @@
 				F79BFD03231C4FBE00698628 /* String+UnicodeScalars.swift in Sources */,
 				F7A0319D2059DE180028039D /* String+Introspection.swift in Sources */,
 				F7E6BA59205551C9000D2D28 /* String+URLs.swift in Sources */,
+				F7E680D8252E357F00461D34 /* Dictionary+Difference.swift in Sources */,
 				F70CD350207198C900560696 /* ShouldType.swift in Sources */,
 				F7A031932059DDCE0028039D /* String+Lines.swift in Sources */,
 				F77B317C22162EF5005375B7 /* Mirror+ReflectProperties.swift in Sources */,
@@ -816,6 +832,7 @@
 				F79BFD01231C4FBE00698628 /* String+UnicodeScalars.swift in Sources */,
 				F7A0319B2059DE180028039D /* String+Introspection.swift in Sources */,
 				F7E6BACB2055D7F2000D2D28 /* Sequence+ReduceBoolean.swift in Sources */,
+				F7E680D6252E357F00461D34 /* Dictionary+Difference.swift in Sources */,
 				F70CD34E207198C900560696 /* ShouldType.swift in Sources */,
 				F7A031912059DDCE0028039D /* String+Lines.swift in Sources */,
 				F77B317A22162EF5005375B7 /* Mirror+ReflectProperties.swift in Sources */,
@@ -866,6 +883,7 @@
 				F79BFD02231C4FBE00698628 /* String+UnicodeScalars.swift in Sources */,
 				F7A0319C2059DE180028039D /* String+Introspection.swift in Sources */,
 				F7E6BAE82055D997000D2D28 /* Sequence+ReduceBoolean.swift in Sources */,
+				F7E680D7252E357F00461D34 /* Dictionary+Difference.swift in Sources */,
 				F70CD34F207198C900560696 /* ShouldType.swift in Sources */,
 				F7A031922059DDCE0028039D /* String+Lines.swift in Sources */,
 				F77B317B22162EF5005375B7 /* Mirror+ReflectProperties.swift in Sources */,
