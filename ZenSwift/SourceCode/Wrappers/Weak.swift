@@ -23,7 +23,6 @@ public extension Weak {
 	
 	/// Returns a Boolean value indicating whether the wrapped value is nil.
 	var isEmpty: Bool {
-		
 		value == nil
 	}
 	
