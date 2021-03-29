@@ -97,6 +97,10 @@
 		F79BFD01231C4FBE00698628 /* String+UnicodeScalars.swift in Sources */ = {isa = PBXBuildFile; fileRef = F79BFCFF231C4FBE00698628 /* String+UnicodeScalars.swift */; };
 		F79BFD02231C4FBE00698628 /* String+UnicodeScalars.swift in Sources */ = {isa = PBXBuildFile; fileRef = F79BFCFF231C4FBE00698628 /* String+UnicodeScalars.swift */; };
 		F79BFD03231C4FBE00698628 /* String+UnicodeScalars.swift in Sources */ = {isa = PBXBuildFile; fileRef = F79BFCFF231C4FBE00698628 /* String+UnicodeScalars.swift */; };
+		F79F5DC62612444300B8C10D /* FloatingPoint+Seconds.swift in Sources */ = {isa = PBXBuildFile; fileRef = F79F5DC52612444300B8C10D /* FloatingPoint+Seconds.swift */; };
+		F79F5DC72612444300B8C10D /* FloatingPoint+Seconds.swift in Sources */ = {isa = PBXBuildFile; fileRef = F79F5DC52612444300B8C10D /* FloatingPoint+Seconds.swift */; };
+		F79F5DC82612444300B8C10D /* FloatingPoint+Seconds.swift in Sources */ = {isa = PBXBuildFile; fileRef = F79F5DC52612444300B8C10D /* FloatingPoint+Seconds.swift */; };
+		F79F5DC92612444300B8C10D /* FloatingPoint+Seconds.swift in Sources */ = {isa = PBXBuildFile; fileRef = F79F5DC52612444300B8C10D /* FloatingPoint+Seconds.swift */; };
 		F7A031902059DDCE0028039D /* String+Lines.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7A0318F2059DDCE0028039D /* String+Lines.swift */; };
 		F7A031912059DDCE0028039D /* String+Lines.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7A0318F2059DDCE0028039D /* String+Lines.swift */; };
 		F7A031922059DDCE0028039D /* String+Lines.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7A0318F2059DDCE0028039D /* String+Lines.swift */; };
@@ -223,6 +227,7 @@
 		F79B673A2359174E00A8E552 /* Sequence+Count.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Sequence+Count.swift"; sourceTree = "<group>"; };
 		F79B6744235CA31F00A8E552 /* Int+Random.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Int+Random.swift"; sourceTree = "<group>"; };
 		F79BFCFF231C4FBE00698628 /* String+UnicodeScalars.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+UnicodeScalars.swift"; sourceTree = "<group>"; };
+		F79F5DC52612444300B8C10D /* FloatingPoint+Seconds.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FloatingPoint+Seconds.swift"; sourceTree = "<group>"; };
 		F7A0318F2059DDCE0028039D /* String+Lines.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Lines.swift"; sourceTree = "<group>"; };
 		F7A031942059DDF90028039D /* String+Localization.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Localization.swift"; sourceTree = "<group>"; };
 		F7A031992059DE180028039D /* String+Introspection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Introspection.swift"; sourceTree = "<group>"; };
@@ -420,6 +425,7 @@
 			children = (
 				F794DA1A2054A50200DB71A4 /* FloatingPoint+Angles.swift */,
 				F794DA1B2054A50200DB71A4 /* FloatingPoint+Percentages.swift */,
+				F79F5DC52612444300B8C10D /* FloatingPoint+Seconds.swift */,
 			);
 			path = FloatingPoint;
 			sourceTree = "<group>";
@@ -715,6 +721,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F79F5DC62612444300B8C10D /* FloatingPoint+Seconds.swift in Sources */,
 				F76F7EE020544C39007C919A /* Array+RemoveItem.swift in Sources */,
 				F76F7EDE20544C39007C919A /* Array+NextPrevious.swift in Sources */,
 				F7A9F0C1224837260089A7BF /* Array+Chunked.swift in Sources */,
@@ -767,6 +774,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F79F5DC92612444300B8C10D /* FloatingPoint+Seconds.swift in Sources */,
 				F76F7EE120544C39007C919A /* Array+RemoveItem.swift in Sources */,
 				F76F7EDF20544C39007C919A /* Array+NextPrevious.swift in Sources */,
 				F7A9F0C4224837260089A7BF /* Array+Chunked.swift in Sources */,
@@ -819,6 +827,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F79F5DC72612444300B8C10D /* FloatingPoint+Seconds.swift in Sources */,
 				F7E6BAC02055D7F2000D2D28 /* FloatingPoint+Angles.swift in Sources */,
 				F7E6BAC12055D7F2000D2D28 /* FloatingPoint+Percentages.swift in Sources */,
 				F7A9F0C2224837260089A7BF /* Array+Chunked.swift in Sources */,
@@ -871,6 +880,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F79F5DC82612444300B8C10D /* FloatingPoint+Seconds.swift in Sources */,
 				F7E6BADD2055D997000D2D28 /* FloatingPoint+Angles.swift in Sources */,
 				F7E6BADE2055D997000D2D28 /* FloatingPoint+Percentages.swift in Sources */,
 				F7A9F0C3224837260089A7BF /* Array+Chunked.swift in Sources */,
