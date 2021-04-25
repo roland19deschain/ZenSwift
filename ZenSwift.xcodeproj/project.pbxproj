@@ -203,10 +203,10 @@
 		F70CD33E207198C900560696 /* StateMachine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StateMachine.swift; sourceTree = "<group>"; };
 		F70CD33F207198C900560696 /* ShouldType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShouldType.swift; sourceTree = "<group>"; };
 		F70CD340207198C900560696 /* StateMachineDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StateMachineDataSource.swift; sourceTree = "<group>"; };
-		F71EFE46205447FE00B49902 /* ZenSwift_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ZenSwift_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F71EFE46205447FE00B49902 /* ZenSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ZenSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F71EFE49205447FE00B49902 /* ZenSwift.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZenSwift.h; sourceTree = "<group>"; };
 		F71EFE4A205447FE00B49902 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F71EFE562054485A00B49902 /* ZenSwift_macOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ZenSwift_macOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F71EFE562054485A00B49902 /* ZenSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ZenSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F728579921697C1000C30D93 /* String+Convenience.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Convenience.swift"; sourceTree = "<group>"; };
 		F728579E21697D2B00C30D93 /* Optional+String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Optional+String.swift"; sourceTree = "<group>"; };
 		F733B1972475DDD50095DFDC /* Array+Combinations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Array+Combinations.swift"; sourceTree = "<group>"; };
@@ -246,8 +246,8 @@
 		F7E680D4252E357F00461D34 /* Dictionary+Difference.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Dictionary+Difference.swift"; sourceTree = "<group>"; };
 		F7E6BA54205551C8000D2D28 /* String+URLs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+URLs.swift"; sourceTree = "<group>"; };
 		F7E6BA55205551C8000D2D28 /* String+Digits.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Digits.swift"; sourceTree = "<group>"; };
-		F7E6BAB52055D7C2000D2D28 /* ZenSwift_tvOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ZenSwift_tvOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F7E6BAD22055D976000D2D28 /* ZenSwift_watchOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ZenSwift_watchOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7E6BAB52055D7C2000D2D28 /* ZenSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ZenSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7E6BAD22055D976000D2D28 /* ZenSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ZenSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7E6BAEA2055E4E2000D2D28 /* Optional+Handle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Optional+Handle.swift"; sourceTree = "<group>"; };
 		F7E6BAFA2055E9D1000D2D28 /* Bool+Integer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bool+Integer.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -343,10 +343,10 @@
 		F71EFE47205447FE00B49902 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F71EFE46205447FE00B49902 /* ZenSwift_iOS.framework */,
-				F71EFE562054485A00B49902 /* ZenSwift_macOS.framework */,
-				F7E6BAB52055D7C2000D2D28 /* ZenSwift_tvOS.framework */,
-				F7E6BAD22055D976000D2D28 /* ZenSwift_watchOS.framework */,
+				F71EFE46205447FE00B49902 /* ZenSwift.framework */,
+				F71EFE562054485A00B49902 /* ZenSwift.framework */,
+				F7E6BAB52055D7C2000D2D28 /* ZenSwift.framework */,
+				F7E6BAD22055D976000D2D28 /* ZenSwift.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -579,7 +579,7 @@
 			);
 			name = "ZenSwift-iOS";
 			productName = ZenSwift;
-			productReference = F71EFE46205447FE00B49902 /* ZenSwift_iOS.framework */;
+			productReference = F71EFE46205447FE00B49902 /* ZenSwift.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		F71EFE552054485A00B49902 /* ZenSwift-macOS */ = {
@@ -597,7 +597,7 @@
 			);
 			name = "ZenSwift-macOS";
 			productName = "ZenSwift-Mac";
-			productReference = F71EFE562054485A00B49902 /* ZenSwift_macOS.framework */;
+			productReference = F71EFE562054485A00B49902 /* ZenSwift.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		F7E6BAB42055D7C2000D2D28 /* ZenSwift-tvOS */ = {
@@ -615,7 +615,7 @@
 			);
 			name = "ZenSwift-tvOS";
 			productName = "ZenSwift-tvOS";
-			productReference = F7E6BAB52055D7C2000D2D28 /* ZenSwift_tvOS.framework */;
+			productReference = F7E6BAB52055D7C2000D2D28 /* ZenSwift.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		F7E6BAD12055D976000D2D28 /* ZenSwift-watchOS */ = {
@@ -633,7 +633,7 @@
 			);
 			name = "ZenSwift-watchOS";
 			productName = "ZenSwift-watchOS";
-			productReference = F7E6BAD22055D976000D2D28 /* ZenSwift_watchOS.framework */;
+			productReference = F7E6BAD22055D976000D2D28 /* ZenSwift.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -1067,7 +1067,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "ZenSwift-iOS";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = ZenSwift;
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -1090,7 +1090,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "ZenSwift-iOS";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = ZenSwift;
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -1114,7 +1114,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				PRODUCT_BUNDLE_IDENTIFIER = "ZenSwift-macOS";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = ZenSwift;
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
@@ -1138,7 +1138,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				PRODUCT_BUNDLE_IDENTIFIER = "ZenSwift-macOS";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = ZenSwift;
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
@@ -1159,7 +1159,7 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "ZenSwift-tvOS";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = ZenSwift;
 				SDKROOT = appletvos;
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
@@ -1182,7 +1182,7 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "ZenSwift-tvOS";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = ZenSwift;
 				SDKROOT = appletvos;
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
@@ -1206,7 +1206,7 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "ZenSwift-watchOS";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = ZenSwift;
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
@@ -1230,7 +1230,7 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "ZenSwift-watchOS";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = ZenSwift;
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
