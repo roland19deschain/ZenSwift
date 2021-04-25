@@ -11,10 +11,10 @@ let package = Package(
 		.watchOS(.v2)
 	],
 	products: [
-		.library(name: "ZenSwift", targets: ["ZenSwift"])
+		.library(name: "ZenSwift", type: .static, targets: ["ZenSwift"])
 	],
 	dependencies: [],
 	targets: [
-		.target(name: "ZenSwift", dependencies: [], path: "./ZenSwift/SourceCode/")
+		.target(name: "ZenSwift", dependencies: [], path: "ZenSwift/SourceCode/")
 	]
 )
