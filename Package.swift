@@ -15,6 +15,6 @@ let package = Package(
 	],
 	dependencies: [],
 	targets: [
-		.target(name: "ZenSwift", dependencies: [], path: "ZenSwift/")
+		.target(name: "ZenSwift", dependencies: [], path: "ZenSwift/SourceCode/")
 	]
 )
