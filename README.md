@@ -5,7 +5,6 @@
 [![Version](https://img.shields.io/cocoapods/v/ZenSwift.svg?style=flat)](http://cocoapods.org/pods/ZenSwift)
 [![Carthage](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
 [![Swift Package Manager](https://rawgit.com/jlyonsmith/artwork/master/SwiftPackageManager/swiftpackagemanager-compatible.svg)](https://swift.org/package-manager/)
-[![CI Status](http://img.shields.io/travis/roland19deschain/ZenSwift.svg?style=flat)](https://travis-ci.org/roland19deschain/ZenSwift)
 [![License](https://img.shields.io/cocoapods/l/ZenSwift.svg?style=flat)](http://cocoapods.org/pods/ZenSwift)
 
 ## Requirements:
