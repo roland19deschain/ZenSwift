@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "F71EFE552054485A00B49902"
-               BuildableName = "ZenSwift_macOS.framework"
+               BuildableName = "ZenSwift.framework"
                BlueprintName = "ZenSwift-macOS"
                ReferencedContainer = "container:ZenSwift.xcodeproj">
             </BuildableReference>
@@ -44,7 +44,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "F71EFE552054485A00B49902"
-            BuildableName = "ZenSwift_macOS.framework"
+            BuildableName = "ZenSwift.framework"
             BlueprintName = "ZenSwift-macOS"
             ReferencedContainer = "container:ZenSwift.xcodeproj">
          </BuildableReference>
@@ -60,7 +60,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "F71EFE552054485A00B49902"
-            BuildableName = "ZenSwift_macOS.framework"
+            BuildableName = "ZenSwift.framework"
             BlueprintName = "ZenSwift-macOS"
             ReferencedContainer = "container:ZenSwift.xcodeproj">
          </BuildableReference>

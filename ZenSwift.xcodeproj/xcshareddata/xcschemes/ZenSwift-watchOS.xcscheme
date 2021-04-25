@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "F7E6BAD12055D976000D2D28"
-               BuildableName = "ZenSwift_watchOS.framework"
+               BuildableName = "ZenSwift.framework"
                BlueprintName = "ZenSwift-watchOS"
                ReferencedContainer = "container:ZenSwift.xcodeproj">
             </BuildableReference>
@@ -44,7 +44,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "F7E6BAD12055D976000D2D28"
-            BuildableName = "ZenSwift_watchOS.framework"
+            BuildableName = "ZenSwift.framework"
             BlueprintName = "ZenSwift-watchOS"
             ReferencedContainer = "container:ZenSwift.xcodeproj">
          </BuildableReference>
@@ -60,7 +60,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "F7E6BAD12055D976000D2D28"
-            BuildableName = "ZenSwift_watchOS.framework"
+            BuildableName = "ZenSwift.framework"
             BlueprintName = "ZenSwift-watchOS"
             ReferencedContainer = "container:ZenSwift.xcodeproj">
          </BuildableReference>
