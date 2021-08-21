@@ -13,7 +13,7 @@ let package = Package(
 	products: [
 		.library(
 			name: "ZenSwift",
-//			type: .static,
+			type: .static,
 			targets: ["ZenSwift"]
 		)
 	],
