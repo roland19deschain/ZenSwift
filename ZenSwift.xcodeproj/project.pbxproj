@@ -153,6 +153,10 @@
 		F7C022AA2468B2CC0063FAB2 /* Int+Computations.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7C022A82468B2CC0063FAB2 /* Int+Computations.swift */; };
 		F7C022AB2468B2CC0063FAB2 /* Int+Computations.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7C022A82468B2CC0063FAB2 /* Int+Computations.swift */; };
 		F7C022AC2468B2CC0063FAB2 /* Int+Computations.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7C022A82468B2CC0063FAB2 /* Int+Computations.swift */; };
+		F7C9C02D27CD6A4D00EC4451 /* BidirectionalCollection+BeforeAfter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7C9C02C27CD6A4D00EC4451 /* BidirectionalCollection+BeforeAfter.swift */; };
+		F7C9C02E27CD6A4D00EC4451 /* BidirectionalCollection+BeforeAfter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7C9C02C27CD6A4D00EC4451 /* BidirectionalCollection+BeforeAfter.swift */; };
+		F7C9C02F27CD6A4D00EC4451 /* BidirectionalCollection+BeforeAfter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7C9C02C27CD6A4D00EC4451 /* BidirectionalCollection+BeforeAfter.swift */; };
+		F7C9C03027CD6A4D00EC4451 /* BidirectionalCollection+BeforeAfter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7C9C02C27CD6A4D00EC4451 /* BidirectionalCollection+BeforeAfter.swift */; };
 		F7E1D138209E6B2800A076B5 /* String+Compare.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7E1D137209E6B2800A076B5 /* String+Compare.swift */; };
 		F7E1D139209E6B2800A076B5 /* String+Compare.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7E1D137209E6B2800A076B5 /* String+Compare.swift */; };
 		F7E1D13A209E6B2800A076B5 /* String+Compare.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7E1D137209E6B2800A076B5 /* String+Compare.swift */; };
@@ -241,6 +245,7 @@
 		F7AFF7FE218E34CF00A7D244 /* Decodable+JSON.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Decodable+JSON.swift"; sourceTree = "<group>"; };
 		F7B1E409234A8F79008B5587 /* Optional+Unwrap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Optional+Unwrap.swift"; sourceTree = "<group>"; };
 		F7C022A82468B2CC0063FAB2 /* Int+Computations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Int+Computations.swift"; sourceTree = "<group>"; };
+		F7C9C02C27CD6A4D00EC4451 /* BidirectionalCollection+BeforeAfter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BidirectionalCollection+BeforeAfter.swift"; sourceTree = "<group>"; };
 		F7E1D137209E6B2800A076B5 /* String+Compare.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Compare.swift"; sourceTree = "<group>"; };
 		F7E5B823260BD31B009FEBA8 /* Array+Weak.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Array+Weak.swift"; sourceTree = "<group>"; };
 		F7E680D4252E357F00461D34 /* Dictionary+Difference.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Dictionary+Difference.swift"; sourceTree = "<group>"; };
@@ -294,8 +299,9 @@
 				F7AFF7D9218E1FFF00A7D244 /* UnicodeScalar */,
 				F7E6BA53205551C8000D2D28 /* String */,
 				F76F7EDB20544C39007C919A /* Array */,
-				F794DA172054A50100DB71A4 /* Collection */,
 				F794DA152054A50100DB71A4 /* Sequence */,
+				F794DA172054A50100DB71A4 /* Collection */,
+				F7C9C03127CD6A6000EC4451 /* BidirectionalCollection */,
 				F7AFF7FD218E34BD00A7D244 /* Encodable */,
 				F7AFF803218E34D800A7D244 /* Decodable */,
 				F77B317D22162EFE005375B7 /* Mirror */,
@@ -452,6 +458,14 @@
 				F7AFF7FE218E34CF00A7D244 /* Decodable+JSON.swift */,
 			);
 			path = Decodable;
+			sourceTree = "<group>";
+		};
+		F7C9C03127CD6A6000EC4451 /* BidirectionalCollection */ = {
+			isa = PBXGroup;
+			children = (
+				F7C9C02C27CD6A4D00EC4451 /* BidirectionalCollection+BeforeAfter.swift */,
+			);
+			path = BidirectionalCollection;
 			sourceTree = "<group>";
 		};
 		F7E5B82C260BD31F009FEBA8 /* Weak */ = {
@@ -758,6 +772,7 @@
 				F76879B7235285B9009B30AD /* String+Search.swift in Sources */,
 				F70CD349207198C900560696 /* StateMachine.swift in Sources */,
 				F79BFD00231C4FBE00698628 /* String+UnicodeScalars.swift in Sources */,
+				F7C9C02D27CD6A4D00EC4451 /* BidirectionalCollection+BeforeAfter.swift in Sources */,
 				F7A0319A2059DE180028039D /* String+Introspection.swift in Sources */,
 				F7E6BA58205551C9000D2D28 /* String+URLs.swift in Sources */,
 				F7E680D5252E357F00461D34 /* Dictionary+Difference.swift in Sources */,
@@ -811,6 +826,7 @@
 				F76879BA235285B9009B30AD /* String+Search.swift in Sources */,
 				F70CD34C207198C900560696 /* StateMachine.swift in Sources */,
 				F79BFD03231C4FBE00698628 /* String+UnicodeScalars.swift in Sources */,
+				F7C9C03027CD6A4D00EC4451 /* BidirectionalCollection+BeforeAfter.swift in Sources */,
 				F7A0319D2059DE180028039D /* String+Introspection.swift in Sources */,
 				F7E6BA59205551C9000D2D28 /* String+URLs.swift in Sources */,
 				F7E680D8252E357F00461D34 /* Dictionary+Difference.swift in Sources */,
@@ -864,6 +880,7 @@
 				F70CD34A207198C900560696 /* StateMachine.swift in Sources */,
 				F7E6BACA2055D7F2000D2D28 /* Collection+SafeSubscript.swift in Sources */,
 				F79BFD01231C4FBE00698628 /* String+UnicodeScalars.swift in Sources */,
+				F7C9C02E27CD6A4D00EC4451 /* BidirectionalCollection+BeforeAfter.swift in Sources */,
 				F7A0319B2059DE180028039D /* String+Introspection.swift in Sources */,
 				F7E6BACB2055D7F2000D2D28 /* Sequence+ReduceBoolean.swift in Sources */,
 				F7E680D6252E357F00461D34 /* Dictionary+Difference.swift in Sources */,
@@ -917,6 +934,7 @@
 				F70CD34B207198C900560696 /* StateMachine.swift in Sources */,
 				F7E6BAE72055D997000D2D28 /* Collection+SafeSubscript.swift in Sources */,
 				F79BFD02231C4FBE00698628 /* String+UnicodeScalars.swift in Sources */,
+				F7C9C02F27CD6A4D00EC4451 /* BidirectionalCollection+BeforeAfter.swift in Sources */,
 				F7A0319C2059DE180028039D /* String+Introspection.swift in Sources */,
 				F7E6BAE82055D997000D2D28 /* Sequence+ReduceBoolean.swift in Sources */,
 				F7E680D7252E357F00461D34 /* Dictionary+Difference.swift in Sources */,

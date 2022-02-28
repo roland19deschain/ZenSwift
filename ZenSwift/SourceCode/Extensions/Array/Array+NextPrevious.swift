@@ -15,9 +15,11 @@ public extension Array where Element: Equatable {
 		step: Int,
 		offset: (Int, Int) -> Int
 	) -> Element? {
-		guard let index = firstIndex(of: item),
-			offset(index, step) < count else {
-				return nil
+		guard
+			let index = firstIndex(of: item),
+			offset(index, step) < count
+		else {
+			return nil
 		}
 		return self[offset(index, step)]
 	}
