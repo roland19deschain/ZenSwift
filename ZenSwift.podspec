@@ -1,19 +1,19 @@
-Pod::Spec.new do |s|
-  s.name             = 'ZenSwift'
-  s.version          = '1.8.1'
-  s.swift_version    = '5.0'
-  s.summary          = 'ZenSwift is a collection of components and Swift stdlib extensions.'
-  s.description      = <<-DESC
+Pod::Spec.new do |spec|
+  spec.name             = 'ZenSwift'
+  spec.version          = '2.0.0'
+  spec.swift_version    = '5.0'
+  spec.summary          = 'ZenSwift is a collection of components and Swift stdlib extensions.'
+  spec.description      = <<-DESC
 ZenSwift is a collection of components and extensions of Swift standard library.
                        DESC
-  s.homepage         = 'https://github.com/roland19deschain/ZenSwift'
-  s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'Alexey Roik' => 'roland19deschain@gmail.com' }
-  s.source           = { :git => 'https://github.com/roland19deschain/ZenSwift.git', :tag => s.version }
-  s.requires_arc     = true
-  s.ios.deployment_target = '12.0'
-  s.osx.deployment_target = '10.10'
-  s.tvos.deployment_target = '12.0'
-  s.watchos.deployment_target = '2.0'
-  s.source_files     = 'ZenSwift/**/*{swift}'
+  spec.homepage         = 'https://github.com/roland19deschain/ZenSwift'
+  spec.license          = { :type => 'MIT', :file => 'LICENSE' }
+  spec.author           = { 'Alexey Roik' => 'roland19deschain@gmail.com' }
+  spec.source           = { :git => 'https://github.com/roland19deschain/ZenSwift.git', :tag => s.version }
+  spec.requires_arc     = true
+  spec.ios.deployment_target = '12.0'
+  spec.osx.deployment_target = '10.10'
+  spec.tvos.deployment_target = '12.0'
+  spec.watchos.deployment_target = '2.0'
+  spec.source_files     = 'Sources/**/*{swift}'
 end
