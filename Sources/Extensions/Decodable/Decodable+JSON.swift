@@ -7,8 +7,8 @@ public extension Decodable {
 		guard let value = try? JSONDecoder().decode(
 			Self.self,
 			from: Data(jsonRepresentation.utf8)
-			) else {
-				return nil
+		) else {
+			return nil
 		}
 		self = value
 	}

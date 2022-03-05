@@ -29,30 +29,29 @@ public extension String {
 		guard let detector = try? NSDataDetector(types: checkingType.rawValue) else {
 			return []
 		}
-		let range = NSRange(location: 0, length: count)
-		return detector
-			.matches(in: self,
-					 options: [],
-					 range: range)
-			.compactMap {
-				$0.resultType == checkingType ? $0.url : nil
+		return detector.matches(
+			in: self,
+			options: [],
+			range: NSRange(location: 0, length: count)
+		).compactMap {
+			$0.resultType == checkingType ? $0.url : nil
 		}
 	}
 	
 	/**
-	Enumerates an array of detected urls. Process may be interrupted by
-	setting pointer to boolean value (stop flag) to true.
-	
-	For Example:
-	```
-	text.detectURLs { url, stop in
-	if url == needle {
-	// stop this loop
-	stop.pointee = true
-	}
-	}
-	```
-	*/
+	 Enumerates an array of detected urls. Process may be interrupted by
+	 setting pointer to boolean value (stop flag) to true.
+	 
+	 For Example:
+	 ```
+	 text.detectURLs { url, stop in
+	 if url == needle {
+	 // stop this loop
+	 stop.pointee = true
+	 }
+	 }
+	 ```
+	 */
 	func detectURLs(
 		handler: @escaping (URL, UnsafeMutablePointer<ObjCBool>) -> Void
 	) {
@@ -61,7 +60,7 @@ public extension String {
 		
 		guard let dataDetector = try? NSDataDetector(
 			types: checkingType.rawValue
-			) else {
+		) else {
 			return
 		}
 		dataDetector.enumerateMatches(
@@ -69,10 +68,12 @@ public extension String {
 			options: [],
 			range: range
 		) { result, flags, stop in
-			guard let result = result,
+			guard
+				let result = result,
 				let url = result.url,
-				result.resultType == checkingType else {
-					return
+				result.resultType == checkingType
+			else {
+				return
 			}
 			handler(url, stop)
 		}

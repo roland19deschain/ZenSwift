@@ -20,11 +20,13 @@ public extension Encodable {
 	
 	/// Returns dictionary representation of self.
 	var dictionaryRepresentation: [String: Any] {
-		guard let data = try? JSONEncoder().encode(self),
+		guard
+			let data = try? JSONEncoder().encode(self),
 			let dictionary =  try? JSONSerialization.jsonObject(
 				with: data
-				) as? [String: Any] else {
-					return [:]
+			) as? [String: Any]
+		else {
+			return [:]
 		}
 		return dictionary
 	}

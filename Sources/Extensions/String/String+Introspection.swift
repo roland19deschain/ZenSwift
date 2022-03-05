@@ -15,14 +15,14 @@ public extension String {
 		!isEmpty && range(
 			of: "[^0-9]",
 			options: .regularExpression
-			) == nil
+		) == nil
 	}
 	
 	/// Returns true if string contains only alphanumeric characters.
 	var isAlphanumeric: Bool {
 		!isEmpty && rangeOfCharacter(
 			from: CharacterSet.alphanumerics.inverted
-			) == nil
+		) == nil
 	}
 	
 	/// Returns true if string contains only latin alphanumeric characters.
@@ -30,7 +30,7 @@ public extension String {
 		!isEmpty && range(
 			of: "[^a-zA-Z0-9]",
 			options: .regularExpression
-			) == nil
+		) == nil
 	}
 	
 	/// Returns true if string contains only cyrillic alphanumeric characters.
@@ -38,7 +38,7 @@ public extension String {
 		!isEmpty && range(
 			of: "[^a-zA-Zа-яёА-ЯЁ0-9]",
 			options: .regularExpression
-			) == nil
+		) == nil
 	}
 	
 	/// Returns a boolean value indicating whether a string begins
@@ -57,7 +57,7 @@ public extension String {
 	var containsEmoji: Bool {
 		unicodeScalars.first {
 			$0.isEmoji
-			} != nil
+		} != nil
 	}
 	
 	/// Returns a boolean value indicating whether a string

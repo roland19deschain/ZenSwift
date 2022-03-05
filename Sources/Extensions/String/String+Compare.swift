@@ -11,7 +11,7 @@ public extension String {
 		compare(
 			text,
 			options: options
-			) == .orderedAscending
+		) == .orderedAscending
 	}
 	
 	/// Returns a boolean which determines whether the string is greater than argument.
@@ -23,7 +23,7 @@ public extension String {
 		compare(
 			text,
 			options: options
-			) == .orderedDescending
+		) == .orderedDescending
 	}
 	
 	/// Returns a boolean which determines whether the string is equal to the argument.
@@ -35,7 +35,7 @@ public extension String {
 		compare(
 			text,
 			options: options
-			) == .orderedSame
+		) == .orderedSame
 	}
 	
 }

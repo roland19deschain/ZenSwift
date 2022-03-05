@@ -8,9 +8,9 @@ public extension FloatingPoint {
 	static var minute: Self { 60 }
 	
 	/**
-	Returns number of seconds in a specified number of minutes
-	- parameter number: The number of minutes to count seconds.
-	*/
+	 Returns number of seconds in a specified number of minutes
+	 - parameter number: The number of minutes to count seconds.
+	 */
 	static func minutes(_ number: Self) -> Self {
 		minute * number
 	}
@@ -25,9 +25,9 @@ public extension FloatingPoint {
 	static var hour: Self { minute * 60 }
 	
 	/**
-	Returns number of seconds in a specified number of hours
-	- parameter number: The number of hours to count seconds.
-	*/
+	 Returns number of seconds in a specified number of hours
+	 - parameter number: The number of hours to count seconds.
+	 */
 	static func hours(_ number: Self) -> Self {
 		hour * number
 	}
@@ -42,9 +42,9 @@ public extension FloatingPoint {
 	static var day: Self { hour * 24 }
 	
 	/**
-	Returns number of seconds in a specified number of days
-	- parameter number: The number of days to count seconds.
-	*/
+	 Returns number of seconds in a specified number of days
+	 - parameter number: The number of days to count seconds.
+	 */
 	static func days(_ number: Self) -> Self {
 		day * number
 	}
@@ -59,9 +59,9 @@ public extension FloatingPoint {
 	static var week: Self { day * 7 }
 	
 	/**
-	Returns number of seconds in a specified number of weeks
-	- parameter number: The number of weeks to count seconds.
-	*/
+	 Returns number of seconds in a specified number of weeks
+	 - parameter number: The number of weeks to count seconds.
+	 */
 	static func weeks(_ number: Self) -> Self {
 		week * number
 	}

@@ -8,7 +8,7 @@ public extension String {
 			from: .decimalDigits,
 			options: .literal,
 			range: nil
-			) != nil
+		) != nil
 	}
 	
 	/// Returns a string consisting only of digits.

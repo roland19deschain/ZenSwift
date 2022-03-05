@@ -15,8 +15,8 @@ public extension String {
 			options: options,
 			range: (ranges.last?.upperBound ?? startIndex)..<endIndex,
 			locale: locale
-			) {
-				ranges.append(range)
+		) {
+			ranges.append(range)
 		}
 		return ranges
 	}
@@ -34,8 +34,8 @@ public extension String {
 			options: options,
 			range: searchRange,
 			locale: locale
-			)?.lowerBound else {
-				return nil
+		)?.lowerBound else {
+			return nil
 		}
 		return distance(from: startIndex, to: index)
 	}
