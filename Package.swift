@@ -29,5 +29,6 @@ let package = Package(
 			dependencies: ["ZenSwift"],
 			path: "Tests/"
 		)
-	]
+	],
+	swiftLanguageVersions: [.v5]
 )
