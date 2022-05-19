@@ -7,6 +7,23 @@ public extension String {
 		URL(string: self)
 	}
 	
+	/// Returns a boolean value indicating whether a string is a valid link (match must covers the whole string).
+	var isValidURL: Bool {
+		guard
+			let detector = try? NSDataDetector(
+				types: NSTextCheckingResult.CheckingType.link.rawValue
+			),
+			let match = detector.firstMatch(
+				in: self,
+				options: [],
+				range: NSRange(location: 0, length: utf16.count)
+			)
+		else {
+			return false
+		}
+		return match.range.length == utf16.count
+	}
+	
 	/// Returns a web url if it's possible.
 	var webUrl: URL? {
 		guard let url = url, !url.isFileURL else {
@@ -25,7 +42,7 @@ public extension String {
 	
 	/// Returns an array of detected urls
 	var detectedURLs: [URL] {
-		let checkingType = NSTextCheckingResult.CheckingType.link
+		let checkingType: NSTextCheckingResult.CheckingType = .link
 		guard let detector = try? NSDataDetector(types: checkingType.rawValue) else {
 			return []
 		}
@@ -55,7 +72,7 @@ public extension String {
 	func detectURLs(
 		handler: @escaping (URL, UnsafeMutablePointer<ObjCBool>) -> Void
 	) {
-		let checkingType = NSTextCheckingResult.CheckingType.link
+		let checkingType: NSTextCheckingResult.CheckingType = .link
 		let range = NSRange(location: 0, length: count)
 		
 		guard let dataDetector = try? NSDataDetector(
