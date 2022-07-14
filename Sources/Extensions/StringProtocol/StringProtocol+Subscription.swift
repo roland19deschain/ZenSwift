@@ -1,6 +1,6 @@
 import Foundation
 
-extension StringProtocol {
+public extension StringProtocol {
 	
 	/// Returns the `Character` at the specified index if it is within receiver length, otherwise nil.
 	subscript(offset: Int) -> Character {
