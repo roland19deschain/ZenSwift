@@ -60,8 +60,6 @@ public extension String {
 		var otherVersionComponents: [String] = otherVersion.components(separatedBy: delimiter)
 		let lengthDiff: Int = versionComponents.count - otherVersionComponents.count
 		
-		let a = compare("")
-
 		if lengthDiff == 0 {
 			return compare(otherVersion, options: .numeric)
 		} else {
