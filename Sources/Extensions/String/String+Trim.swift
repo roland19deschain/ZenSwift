@@ -1,6 +1,6 @@
 import Foundation
 
-// MARK: - Trim - Common
+// MARK: - Trim / Common
 
 public extension String {
 	
@@ -17,7 +17,7 @@ public extension String {
 	
 }
 
-// MARK: - Trim - Tail
+// MARK: - Trim / Tail
 
 public extension String {
 	
@@ -42,7 +42,7 @@ public extension String {
 	
 }
 
-// MARK: - Trim - Head
+// MARK: - Trim / Head
 
 public extension String {
 	
@@ -76,15 +76,15 @@ public extension String {
 		case middle
 		case tail
 	}
-
-	/**
-	 Truncates the string to the specified `length` in the specified `position`
-	 and appends an optional `replacement` string if it longer.
-	 - Parameter length: Desired maximum lengths of a string.
-	 - Parameter position: The position in the string to be truncated
-	 - Parameter replacement: A `String` that will be placed after the truncation instead of a cut piece.
-	 - Returns: A `String` object.
-	 */
+	
+	/// Truncates the string to the specified `length` in the specified `position
+	/// and appends an optional `replacement` string if it longer.
+	///
+	/// - Parameters:
+	///   - limit: Desired maximum lengths of a string.
+	///   - position: The position in the string to be truncated.
+	///   - replacement: A `String` that will be placed after the truncation instead of a cut piece.
+	/// - Returns: A `String` object obtained by truncating the original.
 	func truncated(
 		limit: Int,
 		position: TruncationPosition = .tail,
@@ -106,13 +106,13 @@ public extension String {
 		}
 	}
 	
-	/**
-	 Truncates the string to the specified length in the specified position
-	 and appends an optional replacement string if it longer.
-	 - Parameter length: Desired maximum lengths of a string.
-	 - Parameter position: The position in the string to be truncated
-	 - Parameter replacement: A `String` that will be placed after the truncation instead of a cut piece.
-	 */
+	/// Truncates the string to the specified length in the specified position
+	/// and appends an optional replacement string if it longer.
+	///
+	/// - Parameters:
+	///   - limit: Desired maximum lengths of a string.
+	///   - position: The position in the string to be truncated.
+	///   - replacement: A `String` that will be placed after the truncation instead of a cut piece.
 	mutating func truncate(
 		limit: Int,
 		position: TruncationPosition = .tail,
