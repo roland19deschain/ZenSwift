@@ -9,11 +9,11 @@ public extension Encodable {
 	
 	/// Returns a JSON-encoded representation of self.
 	var jsonRepresentation: String? {
-		guard let data = jsonData else {
+		guard let jsonData else {
 			return nil
 		}
 		return String(
-			data: data,
+			data: jsonData,
 			encoding: .utf8
 		)
 	}
@@ -22,7 +22,7 @@ public extension Encodable {
 	var dictionaryRepresentation: [String: Any] {
 		guard
 			let data = try? JSONEncoder().encode(self),
-			let dictionary =  try? JSONSerialization.jsonObject(
+			let dictionary = try? JSONSerialization.jsonObject(
 				with: data
 			) as? [String: Any]
 		else {
