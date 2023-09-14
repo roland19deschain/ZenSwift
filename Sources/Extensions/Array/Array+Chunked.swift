@@ -1,6 +1,6 @@
 import Foundation
 
-extension Array {
+public extension Array {
 	
 	/// Returns the array of arrays, obtained by dividing
 	/// the receiver into parts of a specified size.
