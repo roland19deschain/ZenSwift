@@ -7,7 +7,7 @@ public extension String {
 		guard contains(" ") || contains("\n") else {
 			return lowercased()
 		}
-		let processed = lowercased()
+		let processed: String = lowercased()
 			.capitalized
 			.replacingOccurrences(of: " ", with: "")
 			.replacingOccurrences(of: "\n", with: "")

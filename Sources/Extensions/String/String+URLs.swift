@@ -26,7 +26,7 @@ public extension String {
 	
 	/// Returns a web url if it's possible.
 	var webUrl: URL? {
-		guard let url = url, !url.isFileURL else {
+		guard let url, !url.isFileURL else {
 			return nil
 		}
 		return url
@@ -34,7 +34,7 @@ public extension String {
 	
 	/// Returns a file url if it's possible.
 	var fileUrl: URL? {
-		guard let url = url, url.isFileURL else {
+		guard let url, url.isFileURL else {
 			return nil
 		}
 		return url
@@ -43,7 +43,9 @@ public extension String {
 	/// Returns an array of detected urls
 	var detectedURLs: [URL] {
 		let checkingType: NSTextCheckingResult.CheckingType = .link
-		guard let detector = try? NSDataDetector(types: checkingType.rawValue) else {
+		guard let detector = try? NSDataDetector(
+			types: checkingType.rawValue
+		) else {
 			return []
 		}
 		return detector.matches(
@@ -73,8 +75,6 @@ public extension String {
 		handler: @escaping (URL, UnsafeMutablePointer<ObjCBool>) -> Void
 	) {
 		let checkingType: NSTextCheckingResult.CheckingType = .link
-		let range = NSRange(location: 0, length: count)
-		
 		guard let dataDetector = try? NSDataDetector(
 			types: checkingType.rawValue
 		) else {
@@ -83,10 +83,10 @@ public extension String {
 		dataDetector.enumerateMatches(
 			in: self,
 			options: [],
-			range: range
+			range: NSRange(location: 0, length: count)
 		) { result, flags, stop in
 			guard
-				let result = result,
+				let result,
 				let url = result.url,
 				result.resultType == checkingType
 			else {

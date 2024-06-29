@@ -66,4 +66,14 @@ public extension String {
 		rangeOfCharacter(from: .newlines) != nil
 	}
 	
+	/// Returns `true` if all the letters in a word the same, otherwise returns `false`.
+	var allCharactersSame: Bool {
+		enumerated().reduce(true) { partialResult, item in
+			guard item.offset < (count - 1) else {
+				return partialResult
+			}
+			return partialResult && item.element == self[item.offset + 1]
+		}
+	}
+	
 }
