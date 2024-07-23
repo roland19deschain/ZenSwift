@@ -1,39 +1,25 @@
 import Foundation
 
-public extension Array where Element == Weak<AnyObject> {
+public extension Array where Element == Unowned<AnyObject> {
 	
-	/// Removes all empty `Weak` wrappers.
-	mutating func cleanUp() {
-		self = filter {
-			$0.value != nil
-		}
-	}
-	
-	/// Returns all elements except empty `Weak` wrappers.
-	func cleanedUp() -> Self {
-		filter {
-			$0.value != nil
-		}
-	}
-	
-	/// Removes all `Weak` wrappers that contains given `value`.
+	/// Removes all `Unowned` wrappers that contains given `value`.
 	mutating func removeAll(_ value: AnyObject) {
 		removeAll {
 			$0.value === value
 		}
 	}
 	
-	/// Adds a new `Weak` wrapper with the given `value` at the end of the array,
+	/// Adds a new `Unowned` wrapper with the given `value` at the end of the array,
 	/// if it doesn't already contain one.
 	mutating func append(value: AnyObject) {
 		guard !contains(value) else {
 			return
 		}
-		append(Weak(value))
+		append(Unowned(value))
 	}
 	
 	/// Returns a Boolean value indicating whether the sequence contains
-	/// a `Weak` wrapper with the given `value`.
+	/// a `Unowned` wrapper with the given `value`.
 	mutating func contains(_ value: AnyObject) -> Bool {
 		contains {
 			$0.value === value
