@@ -1,4 +1,4 @@
-// swift-tools-version:5.9
+// swift-tools-version:6.0
 
 import PackageDescription
 
@@ -7,8 +7,8 @@ let package = Package(
 	platforms: [
 		.iOS(.v12),
 		.tvOS(.v12),
-		.macOS(.v10_10),
-		.watchOS(.v2)
+		.macOS(.v10_13),
+		.watchOS(.v4)
 	],
 	products: [
 		.library(
@@ -30,5 +30,5 @@ let package = Package(
 			path: "Tests/"
 		)
 	],
-	swiftLanguageVersions: [.v5]
+	swiftLanguageModes: [.v6]
 )
