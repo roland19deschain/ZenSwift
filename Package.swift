@@ -5,8 +5,8 @@ import PackageDescription
 let package = Package(
 	name: "ZenSwift",
 	platforms: [
-		.iOS(.v12),
-		.tvOS(.v12),
+		.iOS(.v14),
+		.tvOS(.v14),
 		.macOS(.v10_13),
 		.watchOS(.v4)
 	],
